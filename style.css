@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 :root {
     --bgColor: white;
-    --accentColor: #39e09b;
+    --accentColor: #20cebf;
     --font: 'Karla', sans-serif;
 }
 
@@ -44,11 +44,12 @@ body{
 
 #links{
     max-width: 675px;
-    width: auto;
+    width: 85%;
     display: block;
-    margin: 27px auto;
+    margin: 25px auto;
 }
 .link{
+    border-radius:25px;
     display: block;
     background-color: var(--accentColor);
     color: var(--bgColor);
