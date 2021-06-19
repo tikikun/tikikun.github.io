@@ -42,6 +42,18 @@ body{
     text-decoration: none;
 }
 
+#content{
+    color: #bbb;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+}
+
 #links{
     max-width: 675px;
     width: 95%;
