@@ -9,7 +9,7 @@ $.get('covid_data.json', function (_rawData) {
 function run(_rawData) {
 
     // var countries = ['Australia', 'Canada', 'China', 'Cuba', 'Finland', 'France', 'Germany', 'Iceland', 'India', 'Japan', 'North Korea', 'South Korea', 'New Zealand', 'Norway', 'Poland', 'Russia', 'Turkey', 'United Kingdom', 'United States'];
-    var countries = ["Ha Noi", "TP HCM", "Hung Yen", "Ha Nam", "Vinh Phuc", "Da Nang", "Yen Bai", "Quang Nam", "Dong Nai", "Hai Duong", "Thai Binh", "Quang Ngai", "Lang Son", "Bac Ninh", "Thanh Hoa", "Dien Bien", "Nghe An", "Nam Dinh", "Phu Tho", "Quang Ninh", "Bac Giang", "Hai Phong", "Thua Thien Hue", "Dak Lak", "Hoa Binh", "Quang Tri", "Tuyen Quang", "Son La", "Ninh Binh", "Thai Nguyen", "Long An", "Bac Lieu", "Gia Lai", "Tay Ninh", "Binh Duong", "Tra Vinh", "Dong Thap", "Ha Tinh", "Tien Giang", "Bac Kan", "Lao Cai", "An Giang", "Vinh Long", "Kien Giang", "Khanh Hoa", "Phu Yen", "Binh Thuan", "Can Tho", "Ba Ria - Vung Tau", "Binh Dinh", "Binh Phuoc", "Lam Dong", "Ninh Thuan", "Ben Tre", "Soc Trang", "Ca Mau", "Hau Giang", "Dak Nong"];
+    var countries = ["Ha Noi", "TP HCM", "Bac Ninh", "Bac Giang"];
     var datasetWithFilters = [];
     var seriesList = [];
     echarts.util.each(countries, function (country) {
@@ -47,9 +47,9 @@ function run(_rawData) {
             encode: {
                 x: 'Year',
                 y: 'Income',
-                label: ['Country', 'Income'],
+                label: ['Country', 'Cases'],
                 itemName: 'Year',
-                tooltip: ['Income'],
+                tooltip: ['Cases'],
             }
         });
     });
@@ -61,7 +61,7 @@ function run(_rawData) {
             source: _rawData
         }].concat(datasetWithFilters),
         title: {
-            text: 'Covid ke tu bung dich'
+            text: 'Covid cases since the outbreak'
         },
         tooltip: {
             order: 'valueDesc',
@@ -72,7 +72,7 @@ function run(_rawData) {
             nameLocation: 'middle'
         },
         yAxis: {
-            name: 'Income'
+            name: 'Cases'
         },
         grid: {
             right: 140
