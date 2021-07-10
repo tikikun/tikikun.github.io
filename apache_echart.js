@@ -55,7 +55,7 @@ function run(_rawData) {
     });
 
     option = {
-        animationDuration: 10000,
+        animationDuration: 30000,
         dataset: [{
             id: 'dataset_raw',
             source: _rawData
