@@ -9,7 +9,96 @@
 
 <body>
     <div id="main" style="width: 1000px; height: 500px;"></div>
-    <script src="apache_echart.js"></script>
+    <script>
+        var chartDom = document.getElementById('main');
+        var myChart = echarts.init(chartDom);
+        var option;
+
+        $.get('covid_data.json', function (_rawData) {
+            run(_rawData);
+        });
+
+        function run(_rawData) {
+
+            // var countries = ['Australia', 'Canada', 'China', 'Cuba', 'Finland', 'France', 'Germany', 'Iceland', 'India', 'Japan', 'North Korea', 'South Korea', 'New Zealand', 'Norway', 'Poland', 'Russia', 'Turkey', 'United Kingdom', 'United States'];
+            var countries = ["Ha Noi", "TP HCM", "Hung Yen", "Ha Nam", "Vinh Phuc", "Da Nang", "Yen Bai", "Quang Nam", "Dong Nai", "Hai Duong", "Thai Binh", "Quang Ngai", "Lang Son", "Bac Ninh", "Thanh Hoa", "Dien Bien", "Nghe An", "Nam Dinh", "Phu Tho", "Quang Ninh", "Bac Giang", "Hai Phong", "Thua Thien Hue", "Dak Lak", "Hoa Binh", "Quang Tri", "Tuyen Quang", "Son La", "Ninh Binh", "Thai Nguyen", "Long An", "Bac Lieu", "Gia Lai", "Tay Ninh", "Binh Duong", "Tra Vinh", "Dong Thap", "Ha Tinh", "Tien Giang", "Bac Kan", "Lao Cai", "An Giang", "Vinh Long", "Kien Giang", "Khanh Hoa", "Phu Yen", "Binh Thuan", "Can Tho", "Ba Ria - Vung Tau", "Binh Dinh", "Binh Phuoc", "Lam Dong", "Ninh Thuan", "Ben Tre", "Soc Trang", "Ca Mau", "Hau Giang", "Dak Nong"];
+            var datasetWithFilters = [];
+            var seriesList = [];
+            echarts.util.each(countries, function (country) {
+                var datasetId = 'dataset_' + country;
+                datasetWithFilters.push({
+                    id: datasetId,
+                    fromDatasetId: 'dataset_raw',
+                    transform: {
+                        type: 'filter',
+                        config: {
+                            and: [
+                                { dimension: 'Year', gte: 20210427 },
+                                { dimension: 'Country', '=': country }
+                            ]
+                        }
+                    }
+                });
+                seriesList.push({
+                    type: 'line',
+                    datasetId: datasetId,
+                    showSymbol: false,
+                    name: country,
+                    endLabel: {
+                        show: true,
+                        formatter: function (params) {
+                            return params.value[0] + ': ' + params.value[1];
+                        }
+                    },
+                    labelLayout: {
+                        moveOverlap: 'shiftY'
+                    },
+                    emphasis: {
+                        focus: 'series'
+                    },
+                    encode: {
+                        x: 'Year',
+                        y: 'Income',
+                        label: ['Country', 'Income'],
+                        itemName: 'Year',
+                        tooltip: ['Income'],
+                    }
+                });
+            });
+
+            option = {
+                animationDuration: 10000,
+                dataset: [{
+                    id: 'dataset_raw',
+                    source: _rawData
+                }].concat(datasetWithFilters),
+                title: {
+                    text: 'Covid ke tu bung dich'
+                },
+                tooltip: {
+                    order: 'valueDesc',
+                    trigger: 'axis'
+                },
+                xAxis: {
+                    type: 'category',
+                    nameLocation: 'middle'
+                },
+                yAxis: {
+                    name: 'Income'
+                },
+                grid: {
+                    right: 140
+                },
+                series: seriesList
+            };
+
+            myChart.setOption(option);
+
+        }
+
+        option && myChart.setOption(option);
+
+    </script>
 </body>
 
 </html>
