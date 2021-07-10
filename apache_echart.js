@@ -47,9 +47,9 @@ function run(_rawData) {
             encode: {
                 x: 'Year',
                 y: 'Income',
-                label: ['Country', 'Cases'],
+                label: ['Country', 'Income'],
                 itemName: 'Year',
-                tooltip: ['Cases'],
+                tooltip: ['Income'],
             }
         });
     });
