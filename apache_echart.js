@@ -2,9 +2,18 @@ var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
 var option;
 
-$.get('covid_data.json', function (_rawData) {
-    run(_rawData);
-});
+
+
+init_the_chart();
+
+function init_the_chart() {
+    $.get('covid_data.json', function (_rawData) {
+        run(_rawData);
+    })
+};
+;
+
+
 
 function run(_rawData) {
 
