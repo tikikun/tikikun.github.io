@@ -18,7 +18,7 @@ function init_the_chart() {
 function run(_rawData) {
 
     // var countries = ['Australia', 'Canada', 'China', 'Cuba', 'Finland', 'France', 'Germany', 'Iceland', 'India', 'Japan', 'North Korea', 'South Korea', 'New Zealand', 'Norway', 'Poland', 'Russia', 'Turkey', 'United Kingdom', 'United States'];
-    var countries = ["Ha Noi", "TP HCM", "Bac Ninh", "Bac Giang"];
+    var countries = ["Ha Noi", "TP HCM", "Bac Ninh", "Bac Giang","Binh Duong","Dong Nai","Long An","Tien Giang"];
     var datasetWithFilters = [];
     var seriesList = [];
     echarts.util.each(countries, function (country) {
