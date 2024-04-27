@@ -1,6 +1,6 @@
 baseURL: https://example.com
 languageCode: en-us
-title: Hugo
+title: Alan
 theme:
   - github.com/tikikun/hugo-theme-mini
 
