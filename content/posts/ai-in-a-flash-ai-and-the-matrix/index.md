@@ -1,5 +1,5 @@
 ---
-title: "Ai in a Flash Ai and the Matrix"
+title: "Ai in a Flash: Ai and the Matrix"
 date: 2024-04-27T12:41:24+07:00
 draft: false
 tags: [ai]
