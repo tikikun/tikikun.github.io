@@ -4,6 +4,8 @@ date: 2024-04-27T12:41:24+07:00
 draft: false
 tags: [ai]
 categories: []
+images: 
+  - images/neo.jpg
 ---
 
 ![Hello I'm neo](images/neo.jpg)
