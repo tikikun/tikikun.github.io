@@ -12,5 +12,5 @@ read POST_TITLE
 POST_SLUG=$(slugify "$POST_TITLE")
 
 # Create the post with the slugified name
-hugo new posts/$POST_SLUG/index.md
+hugo new --kind post posts/$POST_SLUG/index.md
 
