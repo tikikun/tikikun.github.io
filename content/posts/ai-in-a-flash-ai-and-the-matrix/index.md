@@ -6,19 +6,29 @@ tags: [ai]
 categories: []
 ---
 
+![Hello I'm neo](images/neo.jpg)
+*Hello Neo here*
+
 Ha! Got you there, not this matrix, the matrix I am talking about is this one.
 
-<p class="ql-left-displayed-equation" style="line-height: 96px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-8d6bdc63ca8882eb6c53f4ad5f6ce585_l3.svg" height="96" width="216" class="ql-img-displayed-equation " alt="&#92;&#91; &#65;&#32;&#61;&#32;&#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#97;&#95;&#123;&#49;&#49;&#125;&#32;&#38;&#32;&#97;&#95;&#123;&#49;&#50;&#125;&#32;&#38;&#32;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#38;&#32;&#97;&#95;&#123;&#49;&#110;&#125;&#32;&#92;&#92; &#97;&#95;&#123;&#50;&#49;&#125;&#32;&#38;&#32;&#97;&#95;&#123;&#50;&#50;&#125;&#32;&#38;&#32;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#38;&#32;&#97;&#95;&#123;&#50;&#110;&#125;&#32;&#92;&#92; &#92;&#118;&#100;&#111;&#116;&#115;&#32;&#38;&#32;&#92;&#118;&#100;&#111;&#116;&#115;&#32;&#38;&#32;&#92;&#100;&#100;&#111;&#116;&#115;&#32;&#38;&#32;&#92;&#118;&#100;&#111;&#116;&#115;&#32;&#92;&#92; &#97;&#95;&#123;&#109;&#49;&#125;&#32;&#38;&#32;&#97;&#95;&#123;&#109;&#50;&#125;&#32;&#38;&#32;&#92;&#99;&#100;&#111;&#116;&#115;&#32;&#38;&#32;&#97;&#95;&#123;&#109;&#110;&#125; &#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
+
+$$
+A = \begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+$$
+
 
 Boring? But this is the fundamental thing that will connect you to &#8220;Neural Network&#8221; which is the building block of Artificial Intelligence and the like, surprisingly. I will show you how in the section below. But hey, hold on there! Let&#8217;s me tell what you the important thing first.
 
 ## What is Neural Network? {.wp-block-heading}
 
-First let&#8217;s screw the complicated medical intuition, let&#8217;s just look at this cool image.<figure class="wp-block-image aligncenter size-full">
+First let's screw the complicated medical intuition, let&#8217;s just look at this cool image.
 
-<img loading="lazy" decoding="async" width="540" height="360" src="https://e6dvmuqwy4e.exactdn.com/wp-content/uploads/2024/04/image-1.jpg?strip=all&lossy=1&ssl=1" alt="" class="wp-image-204" srcset="https://e6dvmuqwy4e.exactdn.com/wp-content/uploads/2024/04/image-1.jpg?strip=all&lossy=1&ssl=1 540w, https://blog.alandao.net/wp-content/uploads/2024/04/image-1-300x200.jpg 300w" sizes="(max-width: 540px) 100vw, 540px" /> <figcaption class="wp-element-caption">How a brain looks like</figcaption></figure> 
+![Human brain](images/human-brain.jpg)
 
 Welp, one thing you can conclude from this cool image is that maybe, just maybe, the brain is a complex structure of interconnected tissues or something. Okay, that is good enough, we will call it the **Neural Network**.
 
@@ -40,9 +50,9 @@ Well you cannot bring tissues into math, obviously, but you can bring the concep
   * You need it to carry informations (say a number or something)
   * You need information to change during the &#8220;connections&#8221; happening
 
-And so something like this has been invented by AI researcher below.<figure class="wp-block-image aligncenter size-large">
+And so something like this has been invented by AI researcher below.
 
-<img loading="lazy" decoding="async" width="652" height="278" src="https://e6dvmuqwy4e.exactdn.com/wp-content/uploads/2024/04/Example_FCN.drawio-1.svg" alt="" class="wp-image-208" /> <figcaption class="wp-element-caption">A sample &#8220;Fully Connected Layers&#8221; &#8211; neural network</figcaption></figure> 
+![Neural network](images/nn-math.svg)
 
 Each of the small round node inside the chart is called a &#8220;cell&#8221; each cell is connected to each other by a line, on the line has some values (that will be multiplied by the value of the cell). The calculation process will go from left to right.
 
@@ -58,9 +68,9 @@ So we have an probably &#8220;approximation&#8221; of the said &#8220;neurons&#8
 
 ### Forward Pass {.wp-block-heading}
 
-As can be seen from above during the &#8220;travel&#8221; (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? is there a formula or something and how does it look like, all of those can be summarized below.<figure class="wp-block-image aligncenter size-large">
+As can be seen from above during the &#8220;travel&#8221; (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? is there a formula or something and how does it look like, all of those can be summarized below.
 
-<img loading="lazy" decoding="async" width="571" height="277" src="https://e6dvmuqwy4e.exactdn.com/wp-content/uploads/2024/04/Example_FCN_matmul.drawio.svg" alt="" class="wp-image-209" /> </figure> 
+![Neural network](images/nn-cal.svg)
 
 So what we learnt from the chart and formula above? It looks neat and very organized, maybe it has some rules?
 
@@ -92,33 +102,55 @@ I have written out everything by that logic below.
 
 First let&#8217;s declar vectors and matrix
 
-<p class="ql-left-displayed-equation" style="line-height: 22px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-c45e352c479107f8db045bf723a23b7b_l3.svg" height="22" width="143" class="ql-img-displayed-equation " alt="&#92;&#91; &#92;&#116;&#101;&#120;&#116;&#123;&#76;&#101;&#116;&#32;&#125;&#32;&#65;&#32;&#61;&#32;&#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125;&#32;&#120;&#95;&#49;&#32;&#38;&#32;&#120;&#95;&#50;&#32;&#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125;&#44; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
 
-<p class="ql-left-displayed-equation" style="line-height: 42px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-ffb0cc8f00d5218b98da88da38ce56ef_l3.svg" height="42" width="221" class="ql-img-displayed-equation " alt="&#92;&#91; &#66;&#32;&#61;&#32;&#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#119;&#95;&#123;&#49;&#49;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#49;&#50;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#49;&#51;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#49;&#52;&#125;&#32;&#92;&#92; &#119;&#95;&#123;&#50;&#49;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#50;&#50;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#50;&#51;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#50;&#52;&#125; &#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125;&#44; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
+$$
+\text{Let } A = \begin{bmatrix} x_1 & x_2 \end{bmatrix},
+$$
+$$
+B = \begin{bmatrix}
+w_{11} & w_{12} & w_{13} & w_{14} \\
+w_{21} & w_{22} & w_{23} & w_{24}
+\end{bmatrix},
+$$
+$$
+C = \begin{bmatrix} y_1 & y_2 & y_3 & y_4 \end{bmatrix}
+$$
 
-<p class="ql-left-displayed-equation" style="line-height: 22px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-a60186bfdc41a559c8d87c304d90b8e8_l3.svg" height="22" width="163" class="ql-img-displayed-equation " alt="&#92;&#91; &#67;&#32;&#61;&#32;&#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125;&#32;&#121;&#95;&#49;&#32;&#38;&#32;&#121;&#95;&#50;&#32;&#38;&#32;&#121;&#95;&#51;&#32;&#38;&#32;&#121;&#95;&#52;&#32;&#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
+
+
+
 
 Let&#8217;s do the Matrix Multiplication from matrix theory math!
 
-<p class="ql-left-displayed-equation" style="line-height: 13px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-5a14ae526772596a1403e08f1d864233_l3.svg" height="13" width="78" class="ql-img-displayed-equation " alt="&#92;&#91; &#65;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#66;&#32;&#61;&#32;&#67; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
+$$
+A \cdot B = C
+$$
 
-<p class="ql-left-displayed-equation" style="line-height: 42px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-35872aafb00c5123e7652f855697d6e3_l3.svg" height="42" width="402" class="ql-img-displayed-equation " alt="&#92;&#91; &#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#120;&#95;&#49;&#32;&#38;&#32;&#120;&#95;&#50; &#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#92;&#99;&#100;&#111;&#116; &#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#119;&#95;&#123;&#49;&#49;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#49;&#50;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#49;&#51;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#49;&#52;&#125;&#32;&#92;&#92; &#119;&#95;&#123;&#50;&#49;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#50;&#50;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#50;&#51;&#125;&#32;&#38;&#32;&#119;&#95;&#123;&#50;&#52;&#125; &#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#61; &#92;&#98;&#101;&#103;&#105;&#110;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#121;&#95;&#49;&#32;&#38;&#32;&#121;&#95;&#50;&#32;&#38;&#32;&#121;&#95;&#51;&#32;&#38;&#32;&#121;&#95;&#52; &#92;&#101;&#110;&#100;&#123;&#98;&#109;&#97;&#116;&#114;&#105;&#120;&#125; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
+$$
+\begin{bmatrix}
+x_1 & x_2
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+w_{11} & w_{12} & w_{13} & w_{14} \\\
+w_{21} & w_{22} & w_{23} & w_{24} \\\ 
+\end{bmatrix}=
+\begin{bmatrix}
+y_1 & y_2 & y_3 & y_4
+\end{bmatrix}
+$$
+
 
 How can we populate value of C, of course through the use of calculations below
 
-<p class="ql-left-displayed-equation" style="line-height: 95px;">
-  <span class="ql-right-eqno"> &nbsp; </span><span class="ql-left-eqno"> &nbsp; </span><img loading="lazy" decoding="async" src="https://e6dvmuqwy4e.exactdn.com/wp-content/ql-cache/quicklatex.com-d10324f69f6e6228423e2050d11c501b_l3.svg" height="95" width="181" class="ql-img-displayed-equation " alt="&#92;&#91; &#92;&#98;&#101;&#103;&#105;&#110;&#123;&#97;&#108;&#105;&#103;&#110;&#101;&#100;&#125; &#121;&#95;&#49;&#32;&#38;&#61;&#32;&#120;&#95;&#49;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#49;&#49;&#125;&#32;&#43;&#32;&#120;&#95;&#50;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#50;&#49;&#125;&#44;&#32;&#92;&#92; &#121;&#95;&#50;&#32;&#38;&#61;&#32;&#120;&#95;&#49;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#49;&#50;&#125;&#32;&#43;&#32;&#120;&#95;&#50;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#50;&#50;&#125;&#44;&#32;&#92;&#92; &#121;&#95;&#51;&#32;&#38;&#61;&#32;&#120;&#95;&#49;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#49;&#51;&#125;&#32;&#43;&#32;&#120;&#95;&#50;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#50;&#51;&#125;&#44;&#32;&#92;&#92; &#121;&#95;&#52;&#32;&#38;&#61;&#32;&#120;&#95;&#49;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#49;&#52;&#125;&#32;&#43;&#32;&#120;&#95;&#50;&#32;&#92;&#99;&#100;&#111;&#116;&#32;&#119;&#95;&#123;&#50;&#52;&#125;&#46; &#92;&#101;&#110;&#100;&#123;&#97;&#108;&#105;&#103;&#110;&#101;&#100;&#125; &#92;&#93;" title="Rendered by QuickLaTeX.com" />
-</p>
+$$
+\begin{aligned}
+y_1 = x_1 \cdot w_{11} + x_2 \cdot w_{21} \\\
+y_2 = x_1 \cdot w_{12} + x_2 \cdot w_{22} \\\
+y_3 = x_1 \cdot w_{13} + x_2 \cdot w_{23} \\\
+y_4 = x_1 \cdot w_{14} + x_2 \cdot w_{24}
+\end{aligned}
+$$
 
 ## Conclusions {.wp-block-heading}
 
