@@ -44,11 +44,11 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Author
+  author: Alan
   # Author biography
-  bio: Software Engineer
+  bio: AI Practitioner
   # Site Description, used in HTML meat
-  description: My Blog
+  description: Sharing knowledge and passion about AI
 
 
   ###########################################
