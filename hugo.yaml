@@ -15,7 +15,7 @@ permalinks:
 paginate: 3
 
 googleAnalytics: your-google-analytics-id
-#disqusShortname: testwithout
+disqusShortname: alan-blog-2 
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
