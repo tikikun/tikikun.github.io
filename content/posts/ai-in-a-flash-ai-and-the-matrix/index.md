@@ -25,7 +25,7 @@ $$
 
 Boring? But this is the fundamental thing that will connect you to &#8220;Neural Network&#8221; which is the building block of Artificial Intelligence and the like, surprisingly. I will show you how in the section below. But hey, hold on there! Let&#8217;s me tell what you the important thing first.
 
-## What is Neural Network? {.wp-block-heading}
+## What is Neural Network? 
 
 First let's screw the complicated medical intuition, let&#8217;s just look at this cool image.
 
@@ -37,13 +37,13 @@ But how exactly this is relevant to matrix or like AI or anything at all ??? Jus
 
 The brain is the most complicated part of the species named **Human** which considers themself **sentient** and have extremely complicated behaviors thinking and invented, discovered quite complicated things like science, rocket,&#8230; and so on. So in fact, the brain posses something we call **intelligence**.
 
-## What is Artificial Intelligence {.wp-block-heading}
+## What is Artificial Intelligence 
 
 But thing is, human is quite hard to create, in fact you need almost 20 years of education for a baby to be productive and contributing to society on average. So, to overcome that we invented something called **Artificial Intelligence** which is in a nutshell, just trying to mimic the brain and intelligence to some degree.
 
 But to do that we came up with a thing called **Neural Network** but, welp, the neural network in math does not contain meat and tissues.
 
-## What is Neural Network again, but in Math {.wp-block-heading}
+## What is Neural Network again, but in Math 
 
 Well you cannot bring tissues into math, obviously, but you can bring the concepts over! So let&#8217;s start with the basics:
 
@@ -65,9 +65,9 @@ Also, you can see, it fulfilled the requirements above:
 
 So we have an probably &#8220;approximation&#8221; of the said &#8220;neurons&#8221; inside human brain, but in a mathematical way now.
 
-## So what does it have to do with &#8220;The Matrix&#8221; {.wp-block-heading}
+## So what does it have to do with &#8220;The Matrix&#8221; 
 
-### Forward Pass {.wp-block-heading}
+### Forward Pass 
 
 As can be seen from above during the &#8220;travel&#8221; (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? is there a formula or something and how does it look like, all of those can be summarized below.
 
@@ -80,7 +80,7 @@ So what we learnt from the chart and formula above? It looks neat and very organ
   * The number of calculations need to be done must be equal to the number of output value (4 times y1,2,3,4= &#8230;)
   * The number of summarizations must match the number of input values (2 times, x1 multiply something and + x2 multiply something)
 
-### The Matrix {.wp-block-heading}
+### The Matrix 
 
 With the rule above, it will look weirdly similar, how exactly something looks so random and connected in a mesh together can have such clear rule (output, input, number of calculations etc&#8230; all known).
 
@@ -153,7 +153,7 @@ y_4 = x_1 \cdot w_{14} + x_2 \cdot w_{24}
 \end{aligned}
 $$
 
-## Conclusions {.wp-block-heading}
+## Conclusions 
 
 You have seen that the **forward pass** in **neural network** which is simply a process to pass a bunch of number into different **layers** and how it can be converted back to matrix math 100%.
 
