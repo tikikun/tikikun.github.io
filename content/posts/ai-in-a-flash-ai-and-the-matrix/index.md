@@ -23,7 +23,7 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 $$
 
 
-Boring? But this is the fundamental thing that will connect you to &#8220;Neural Network&#8221; which is the building block of Artificial Intelligence and the like, surprisingly. I will show you how in the section below. But hey, hold on there! Let&#8217;s me tell what you the important thing first.
+Boring? But this is the fundamental thing that will connect you to "Neural Network" which is the building block of Artificial Intelligence and the like, surprisingly. I will show you how in the section below. But hey, hold on there! Let&#8217;s me tell what you the important thing first.
 
 ## What is Neural Network? 
 
@@ -49,13 +49,13 @@ Well you cannot bring tissues into math, obviously, but you can bring the concep
 
   * You need it to be interconnected
   * You need it to carry informations (say a number or something)
-  * You need information to change during the &#8220;connections&#8221; happening
+  * You need information to change during the "connections" happening
 
 And so something like this has been invented by AI researcher below.
 
 ![Neural network](images/nn-math.svg)
 
-Each of the small round node inside the chart is called a &#8220;cell&#8221; each cell is connected to each other by a line, on the line has some values (that will be multiplied by the value of the cell). The calculation process will go from left to right.
+Each of the small round node inside the chart is called a "cell" each cell is connected to each other by a line, on the line has some values (that will be multiplied by the value of the cell). The calculation process will go from left to right.
 
 Also, you can see, it fulfilled the requirements above:
 
@@ -63,13 +63,13 @@ Also, you can see, it fulfilled the requirements above:
   * Inside each cell it has a value (0.1, 0.2&#8230;etc)
   * Information is changed during the connecting step (You can see 0.1 is transformed into 0.5 because there is a value of 5 in the line connects the two cells)
 
-So we have an probably &#8220;approximation&#8221; of the said &#8220;neurons&#8221; inside human brain, but in a mathematical way now.
+So we have an probably "approximation" of the said &#8220;neurons&#8221; inside human brain, but in a mathematical way now.
 
-## So what does it have to do with &#8220;The Matrix&#8221; 
+## So what does it have to do with "The Matrix" 
 
 ### Forward Pass 
 
-As can be seen from above during the &#8220;travel&#8221; (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? is there a formula or something and how does it look like, all of those can be summarized below.
+As can be seen from above during the "travel" (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? is there a formula or something and how does it look like, all of those can be summarized below.
 
 ![Neural network](images/nn-cal.svg)
 
@@ -161,6 +161,6 @@ Why this is important? Because nowadays all of the computations in AI, literally
 
 Due to above reasons, your matrix math became the pillar for AI and machine learning in general. In order to make AI faster, more efficient, we just need to figure out one single thing.
 
-&#8220;How to to do matmul faster?&#8221;
+"How to to do matmul faster?"
 
 
