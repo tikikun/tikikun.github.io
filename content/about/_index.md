@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "Who is me?"
-date = "2019-02-28"
+date = "2024-04-27"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Alan"
 enableComments = false
