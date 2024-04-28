@@ -135,7 +135,7 @@ x_1 & x_2
 \begin{bmatrix}
 w_{11} & w_{12} & w_{13} & w_{14} \\\
 w_{21} & w_{22} & w_{23} & w_{24} \\\ 
-\end{bmatrix}=
+\end{bmatrix}= \\\
 \begin{bmatrix}
 y_1 & y_2 & y_3 & y_4
 \end{bmatrix}
