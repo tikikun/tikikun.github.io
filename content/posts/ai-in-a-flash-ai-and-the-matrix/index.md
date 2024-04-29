@@ -153,7 +153,7 @@ y_4 = x_1 \cdot w_{14} + x_2 \cdot w_{24}
 \end{aligned}
 $$
 
-## Conclusions 
+## Conclusion 
 
 You have seen that the **forward pass** in **neural network** which is simply a process to pass a bunch of number into different **layers** and how it can be converted back to matrix math 100%.
 
