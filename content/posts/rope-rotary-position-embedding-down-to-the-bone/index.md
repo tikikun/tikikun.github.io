@@ -18,7 +18,7 @@ But for real? What the hell is RoPE and how does it work? They say something abo
 
 ## The intuition behind RoPE
 
-In order to understand what is RoPE firstly we need to review some high school math
+In order to understand what is RoPE firstly we need to review some high school math.
 
 ### Complex Number
 In mathematics, a **complex number** is a number that can be expressed in the form:
@@ -65,7 +65,7 @@ $$
 
 ### Multiplication of two complex number in polar form
 
-Assuming we have two complex numbers z_1 and z_2 represented in polar form as 
+Assuming we have two complex numbers z1 and z2 represented in polar form as 
 $$ z_1 = r_1 \cdot e^{i\theta_1} $$ 
 $$ z_2 = r_2 \cdot e^{i\theta_2} $$
 $$
