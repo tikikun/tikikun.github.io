@@ -107,3 +107,5 @@ By leveraging features of complex numbers, the positional information has been e
 
 [LLama-3-8B-Instruct now extended 1048576 context length landed on HuggingFace](https://www.reddit.com/r/LocalLLaMA/comments/1cg8uzp/llama38binstruct_now_extended_1048576_context/)
 [Extending Llama-3's Context Ten-Fold Overnight](https://arxiv.org/abs/2404.19553)
+
+But all of that comes from the intution of using complex numbers is quite fascinating!
