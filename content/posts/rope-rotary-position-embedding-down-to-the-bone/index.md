@@ -96,7 +96,7 @@ Since we got all the intution down we can revisit this chart below.
 As you can see the core idea behind RoPE is that you can incorporate the position of a token information into the embedding by effectively "tilt" the angle of the vectors that constructs that embedding vector. Conveniently, this is exactly what we have from using complex numbers. So how we go about doing this? Here are steops:
 1. We need to specify the logic on how each position is corresponding to which angle (first token is 10 degree second is 20 etc.....), this is normally done using "frequency" value so that each position will have a different fixed angle.
 2. Represent each position using a complex number, possibly in **polar form**! (Check above)
-3. Truncate your embedding vector into sub vectors (pair of 2) and since a vector with 2 values can be considered a complex number, we can rewrite it into **polar form**!
+3. Split your embedding vector into sub vectors (pair of 2) and since a vector with 2 values can be considered a complex number, we can rewrite it into **polar form**!
 4. Encode information of positions into each embedding multiply the **position(currently is a polar form complex number)** x **Query/Key (currently also represented as complex numbers)**
 5. Voila! we got positioned encoded query/key on the right.
 
