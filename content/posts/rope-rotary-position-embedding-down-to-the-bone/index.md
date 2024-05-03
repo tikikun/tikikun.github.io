@@ -66,7 +66,7 @@ $$
 
 And this is how it looks like on the complex plane, for the cosin part.
 
-![cosin part](images/euler_viz.svg)
+{{< centeredImg src="images/euler_viz.svg" alt="cosin part" >}}
 
 ### Multiplication of two complex number in polar form
 
