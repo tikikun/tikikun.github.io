@@ -64,6 +64,10 @@ $$
 z = r (\cos \theta + i\sin \theta)
 $$
 
+And this is how it looks like on the complex plane, for the cosin part.
+
+![cosin part](images/euler_viz.svg)
+
 ### Multiplication of two complex number in polar form
 
 Assuming we have two complex numbers z1 and z2 represented in polar form as 
