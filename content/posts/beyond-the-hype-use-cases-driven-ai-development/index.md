@@ -21,14 +21,14 @@ In fact if we are reviewing some of the focuses of work in AI space right now, i
 
 
 ## Do things???
-![](images/rabbit-r1-launch-ai-challenges-traditional-smart-devices.webp)
+![](images/sddefault.jpg)
 
 Seriously even though it seems broad and sophisticated, this makes zero sense.
 - A phone is better at do "things"
 - A phone has been finetuned, designed and catered for do "things" for > 10 years now
 - A phone is snappier faster than your voice
 
-You don't believe me yet look at this chainless bicycle
+You don't believe me yet? just look at this chainless bicycle
 
 ![](images/e2fd29ff557f2b0901b8ed7764ed3700.jpg)
 
