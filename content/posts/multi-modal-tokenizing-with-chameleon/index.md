@@ -77,9 +77,11 @@ I have implemented the "image tokenizers" with similiar features in this repo
 What I have done?
 - I re-purpose (not retrain entirely) llama3 tokenizers.
 - Because llama3 tokenizers use tiktoken there is no need to retrain the tokenizers entirely because it will priority full token and will not break words into sub-word if the entire word is matched.
-- I pad the number of tokens in the original vocab to the tokenizers
+- I pad the value of codebook to the size of llama3 vocabulary size (beginning_pos = llama3 vocab size + codebook value ).
+- I produced some nominal values named "<dis_...>" in order to represent for each of the image tokens 
 
-I will spend some time later to write down some explaination on how this was done. The tokenizer can tokenize the image with ease and also enable anyone to build an image datatset that 100% compatible to traditional text datasets.
+Using the above technique we can decode and encode the images datasets using VQ-VAE models, but at the same time, we can generate a dataset that can be trained on tradinational LLM model.
 
-More coming soon...
+## Conclusion
+It is not very sure at this moment in time whether we are reaching a stagnation in LLM capability. However, since LLM currently is only trained on text and not truly multimodal, extending scope of "tokenizer" like Chameleon can prove some fruitful results in the upcoming development of LLM models.
 
