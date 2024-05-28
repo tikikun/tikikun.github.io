@@ -4,6 +4,7 @@ date: 2024-05-27T20:35:05+07:00
 draft: false
 tags: []
 categories: [ai]
+images: [images/commuter-bike-illustration-free-vector.jpg]
 ---
 
 Today I went biking
