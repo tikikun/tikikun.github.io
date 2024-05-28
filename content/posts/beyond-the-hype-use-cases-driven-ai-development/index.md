@@ -81,6 +81,6 @@ Nope
 
 ## Where is improvement of quality of life?
 
-All the AIs all the token speed I cannot even stop my music while I am cycling around the city. The current focus in development will not yield better use case, in fact I'm very confused on what will it lead eventually.
+All the AIs all the token speed I could not even stop my music while I were cycling around the city. The current focus in development will not yield better use case, in fact I'm very confused on what will it lead eventually.
 
 ChatGPT has been working as an "knowledge distillation" very well, and that is probably the reason why it has such a good traction and users all over the globe. But, "ChatGPT harder" might not be a sustainable way to do AI developement.
