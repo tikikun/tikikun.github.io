@@ -18,7 +18,7 @@ and... I realize something I wanted. When I were biking
 
 I realize how much I need a hands-free solutions to control my phone in general while I riding a bicycle. My work is in AI, at this point I should have something just to parse my voice to just pick something I need, a better (yes) Siri or something like that? Guess what It is literally nowhere to be seen, something like that, for a cyclist!
 
-In fact if we are reviewing some of the focuses of work in AI space right now, it will come as quite shocking that is it even driven by use case, do people even use, asides from obvious use case like chatGPT?
+In fact if we are reviewing some of the focuses of work in AI space right now, it will come as quite shocking that is it not even driven by use case, asides from obvious use case like chatGPT?
 
 
 ## Do things???
