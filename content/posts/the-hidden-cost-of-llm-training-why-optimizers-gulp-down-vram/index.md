@@ -56,7 +56,7 @@ For each parameter in your model, AdamW needs to store (asides from the model we
 1. The first moment estimate (m)
 2. The second moment estimate (v)
 
-This means that for a model with N parameters, AdamW effectively needs to store an extra 2N (and probably some more) number of paramemters for the update (because each parameters need to have 2 values in the optimizer).
+This means that for a model with **N parameters**, AdamW effectively needs to store an extra **2N parameters** (and probably some more) number of paramemters for the update (because each parameters need to have 2 values in the optimizer).
 
 Visually, m and v should carry as many value as exactly the weight
 
