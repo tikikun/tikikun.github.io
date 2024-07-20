@@ -97,7 +97,7 @@ But in theory you can choose to modify the optimizer state calculation in a diff
 Well if you're quantizing the weight, you end up with "QLoRA" but what if you're just quantizing the optimizer?
 
 Well that another option, in fact there is a dedicated section for that below 
-![8-bit optimizers](https://huggingface.co/docs/bitsandbytes/main/en/optimizers)
+[8-bit optimizers](https://huggingface.co/docs/bitsandbytes/main/en/optimizers)
 
 Basically what you can do is:
 - Keep the model as full parameters
