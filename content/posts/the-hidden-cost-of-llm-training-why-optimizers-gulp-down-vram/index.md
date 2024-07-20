@@ -2,8 +2,9 @@
 title: "The Hidden Cost of LLM Training: Why Optimizers Gulp Down Vram"
 date: 2024-07-20T21:00:53+07:00
 draft: false
-tags: []
+tags: [ai]
 categories: []
+images: [images/just_how_you_feel_out_of_memory.png]
 ---
 
 # The error of death
