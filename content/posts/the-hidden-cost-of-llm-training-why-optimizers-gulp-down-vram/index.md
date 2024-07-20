@@ -24,9 +24,9 @@ Technically speaking when you train an AI model, you will need to have enough VR
 But hey, look this is 2024, and everyone got too many on their plates already! No one will code the entire training pipeline, including optimizer, parameters, ... from sratch for no purpose? Hence, I will cut to chase now and tell you what are the culprit that most of the time, will eat up the VRAM during the training/finetuning process.
 
 During most LLM training/finetuning there are 3 main things that will cost you your dear VRAM:
-- Model weight (the number of parameters 7B, 13B,... and so on)
-- Intermediate activations: activations of layers during a forward pass
-- Optimizer state (most used optimizer is AdamW and its variance)
+- **Model weight** :the number of parameters 7B, 13B,... and so on
+- **Intermediate activations**: activations of layers during a forward pass
+- **Optimizer state** :most used optimizer is AdamW and its variance
 
 The above list looks intuitive for the first two items, obviously you need to store model weight and activations to be at least able to train a model, but what about optimizer?
 
