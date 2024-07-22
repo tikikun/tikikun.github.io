@@ -7,7 +7,7 @@ categories: []
 images: [images/just_how_you_feel_out_of_memory.jpg]
 ---
 
-# The error of death
+## The error of death
 Have you been constantly battling with VRAM usage in finetuning LLM, and constantly struggling with the below error
 
 ```
@@ -19,7 +19,7 @@ The above is the destroyer of joy, the sudden stop of happiness and the most dre
 ![CUDA OOM](images/just_how_you_feel_out_of_memory.jpg)
 
 
-# What is eating up VRAM in my training pipeline?
+## What is eating up VRAM in my training pipeline?
 Technically speaking when you train an AI model, you will need to have enough VRAM, for whatever you have "allocated" to the memory.
 
 But hey, look this is 2024, and everyone got too many on their plates already! No one will code the entire training pipeline, including optimizer, parameters, ... from sratch for no purpose? Hence, I will cut to chase now and tell you what are the culprit that most of the time, will eat up the VRAM during the training/finetuning process.
@@ -37,10 +37,10 @@ I have realized a lot of people acutally skipped this part because Adam and Adam
 
 Well, jokes asides, you can do something about like quantize the weight, choose a smaller model etc... But today I will tilt your attention to a different thing called the optimizer, and in this case AdamW!
 
-# What exactly is AdamW, and what is it allocating?
+## What exactly is AdamW, and what is it allocating?
 AdamW (Adam with Weight Decay) is an extension of the popular Adam optimizer, designed to address some of the shortcomings of standard Adam, particularly in the context of large neural networks like LLMs. To understand why AdamW can be so memory-intensive, let's break down what it's actually doing and storing in memory.
 
-## The Basics of Adam
+### The Basics of Adam
 Adam (Adaptive Moment Estimation) maintains two moving averages for each parameter in the model:
 
 1. The first moment estimate (mean of gradients)
@@ -48,10 +48,10 @@ Adam (Adaptive Moment Estimation) maintains two moving averages for each paramet
 
 These moving averages allow Adam to adapt the learning rate for each parameter individually, which can lead to faster convergence and better performance, especially for problems with sparse gradients.
 
-## AdamW's Additional Complexity
+### AdamW's Additional Complexity
 AdamW builds on Adam by decoupling the weight decay from the gradient update. This seemingly small change can lead to better generalization, especially for large models. However, it comes at a cost in terms of memory usage.
 
-## Memory Footprint of AdamW
+### Memory Footprint of AdamW
 For each parameter in your model, AdamW needs to store (asides from the model weight and activations, of course):
 
 1. The first moment estimate (m)
@@ -75,12 +75,12 @@ Total VRAM: ~48GB
 
 Let's say you have a decent budget and your GPU is A6000 ($5000 GPU), without allocating any space to store activations you have already ran out of space since A6000 only have 48GB Vram you are dead in the water already.
 
-# What to do?
+## What to do?
 QLoRA and LoRA is nice, but what to do if you still want to full finetune anyways with the limitation of VRAM
 
 Understanding the nature of the optimizer's memory footprint can give us some options
 
-## Option 1: Modify the optimizer (AdamW)
+### Option 1: Modify the optimizer (AdamW)
 If you pay close attention you can do something to the optimizer, you can reduce the resolution or number of values you decided to save for example
 
 I n the paper below they decided
@@ -94,7 +94,7 @@ They basically averaging out the the v value calculation in a average grid style
 
 But in theory you can choose to modify the optimizer state calculation in a different way and see what is the result for yourself, even removing v-state entirely!
 
-## Option 2: Quantize the optimizer
+### Option 2: Quantize the optimizer
 Well if you're quantizing the weight, you end up with "QLoRA" but what if you're just quantizing the optimizer?
 
 Well that another option, in fact there is a dedicated section for that here [8-bit optimizers](https://huggingface.co/docs/bitsandbytes/main/en/optimizers)
@@ -105,14 +105,14 @@ Basically what you can do is:
 
 Maybe it will take more time to converge or loss will go down slower, but you will be able to keep the output of the training weight in full FP16 with a significant reduction in VRAM usage
 
-## Option 3: Combine option 1 and 2
+### Option 3: Combine option 1 and 2
 You can start with the quantized version of the optimizer in option 2, and try to implement the VRAM reduction version of it (like adam mini) in option 1 so you will get vram reduction in quantization and in modification of the optimizer!
 
-## Option 4: Use a different optimizer
+### Option 4: Use a different optimizer
 There are many other optimizer like Lion optimizer for example [Lion](https://huggingface.co/docs/bitsandbytes/main/en/reference/optim/lion)
 
 
-# Summary
+## Conclusion
 You can reduce VRAM usage by the 4 options above without resorting to LoRA or QLoRA (or buy more gpus) just yet. Training an AI model is inherently a stochastic and optimization process, so by understanding it you can also somewhat control the requirement and make some trade-offs to make your training possible without resorting to quality destroying method like quantizing the weight of the model. Also, sometimes you will experience faster convergence even though you are on a different optimizer or custom optimizer (like in adam-mini case) so more VRAM <> better.
 
 
