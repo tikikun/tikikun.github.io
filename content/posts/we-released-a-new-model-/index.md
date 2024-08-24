@@ -18,3 +18,5 @@ We proudly present the result, a working llama3,1 checkpoint (that we call llama
 
 If you don't have the time to skim through the blog post, you can also directly use the demo here:
 - https://huggingface.co/spaces/jan-hq/Llama3.1-s-v0.2
+
+Hope our effort has brought you some joy and fun (because this is a project of passion), thanks!
