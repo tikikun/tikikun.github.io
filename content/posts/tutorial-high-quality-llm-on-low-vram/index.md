@@ -34,13 +34,13 @@ But you still can save VRAM! Instead of using the quantized weight, you can stor
 
 To desmonstrate that, I have performed a full benchmark on different context len (131k, 80k, 32k) and the amount of VRAM that it will use, as well as showing the respective MMLU score. 
 
-| **Model Quant** | **KV Cache Quant** | **MMLU** | **Confidence** | **131k** | **80k** | **32k** |
-| --- | --- | --- | --- | --- | --- | --- |
-| BF16 (Baseline) | BF16 (Baseline) | 69.4 | - | 32 GB | 26.6 GB | 20.5 GB |
-| Q8 | Q4 | 68.17 | 61.59 | 14.2 GB | 11.6 GB | 10.1 GB |
-| Q8 | Q6 | 68.59 | 61.70 | 16.2 GB | 13.4 GB | 10.6 GB |
-| Q8 | Q8 | 68.42 | 61.82 | 18.0 GB | 14.5 GB | 11.2 GB |
-| Q8 | FP16 | 68.37 | 61.82 | 24.9 GB | 18.7 GB | 12.9 GB |
+| **Model Quant** | **KV Cache Quant** | **MMLU** | **131k** | **80k** | **32k** |
+| --- | --- | --- | --- | --- | --- |
+| BF16 (Baseline) | BF16 (Baseline) | 69.4 | 32 GB | 26.6 GB | 20.5 GB |
+| Q8 | Q4 | 68.17 | 14.2 GB | 11.6 GB | 10.1 GB |
+| Q8 | Q6 | 68.59 | 16.2 GB | 13.4 GB | 10.6 GB |
+| Q8 | Q8 | 68.42 | 18.0 GB | 14.5 GB | 11.2 GB |
+| Q8 | FP16 | 68.37 | 24.9 GB | 18.7 GB | 12.9 GB |
 
 Contrary to the paper, when you reduce the precision of the KV-Cache, MMLU still holds up pretty well, not like the quantization of the weight in the paper.
 
