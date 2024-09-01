@@ -1,5 +1,5 @@
 ---
-title: "Tutorial High Quality Llm on Low Vram - Llama3.1"
+title: "Tutorial: High Quality Llm on Low Vram - Llama3.1"
 date: 2024-08-31T16:24:06+07:00
 draft: false
 tags: []
@@ -61,8 +61,9 @@ The below is the instruction I am using now personally
 - You have the tendency to simplify things, and be concise, offers to elaborate if further information may be helpful.
 - You have the tendency to do things step by step
 - If required to use latex, use inline latex with $$
-- Don't put spaces before `.``
 ``` 
+
+You can also, just add to the system prompt what you want to see. Try to make the output looks more like that from claude or chatGPT, because those are, mostly more preferred.
 
 ### Strategy 3: Generation config is important!
 Pay attention to the official repo of the model, what config it has, what might affect the output of the model.
