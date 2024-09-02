@@ -34,9 +34,9 @@ But you still can save VRAM! Instead of using the quantized weight, you can stor
 
 To desmonstrate that, I have performed a full benchmark on different context len (131k, 80k, 32k) and the amount of VRAM that it will use, as well as showing the respective MMLU score. 
 
-| **Model Quant** | **KV Cache Quant** | **MMLU** | **131k** | **80k** | **32k** |
+| **Quant** | **KV-Quant** | **MMLU** | **131k** | **80k** | **32k** |
 | --- | --- | --- | --- | --- | --- |
-| BF16 (Baseline) | BF16 (Baseline) | 69.4 | 32 GB | 26.6 GB | 20.5 GB |
+| BF16 | BF16 | 69.4 | 32 GB | 26.6 GB | 20.5 GB |
 | Q8 | Q4 | 68.17 | 14.2 GB | 11.6 GB | 10.1 GB |
 | Q8 | Q6 | 68.59 | 16.2 GB | 13.4 GB | 10.6 GB |
 | Q8 | Q8 | 68.42 | 18.0 GB | 14.5 GB | 11.2 GB |
