@@ -38,7 +38,7 @@ To desmonstrate that, I have performed a full benchmark on different context len
 | --- | --- | --- | --- | --- | --- |
 | BF16 | BF16 | 69.4 | 32 GB | 26.6 GB | 20.5 GB |
 | Q8 | Q4 | 68.17 | 14.2 GB | 11.6 GB | 10.1 GB |
-| Q8 | Q6 | 68.59 | 16.2 GB | 13.4 GB | 10.6 GB |
+| **Q8** | **Q6** | **68.59** | **16.2 GB** | **13.4 GB** | **10.6 GB** |
 | Q8 | Q8 | 68.42 | 18.0 GB | 14.5 GB | 11.2 GB |
 | Q8 | FP16 | 68.37 | 24.9 GB | 18.7 GB | 12.9 GB |
 
