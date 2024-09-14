@@ -2,7 +2,7 @@
 title: "Tutorial: High Quality Llm on Low Vram - Llama3.1"
 date: 2024-08-31T16:24:06+07:00
 draft: false
-tags: []
+tags: [ai]
 categories: []
 images: [images/llama-sunglasses-meadow.jpg] 
 ---

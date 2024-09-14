@@ -2,7 +2,7 @@
 title: "Beyond the Hype: Use Case-Driven AI Development"
 date: 2024-05-27T20:35:05+07:00
 draft: false
-tags: []
+tags: [ai]
 categories: [ai]
 images: [images/commuter-bike-illustration-free-vector.jpg]
 ---
