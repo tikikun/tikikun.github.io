@@ -4,6 +4,7 @@ date: 2024-10-23T21:14:06+07:00
 draft: false
 tags: [ai]
 categories: [ai]
+images: [images/gaussian_noise.png]
 ---
 
 Up until now everyone has been using "Rotary Position Embedding" (RoPE) like a default method for positional encoding for awhile. However, specifically how and why RoPE makes things "better" is still a little unexlored.
