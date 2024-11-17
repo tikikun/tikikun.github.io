@@ -21,7 +21,7 @@ There could be many reasons for such things like.
 - Special dataset that requires high accuracy for the model to retain knowledge
 - ...
 
-Regardless, using Q4 and Q5 right now is not the correct choice to retrain quality, since the degradation is no longer noticable, but are we out of options? Luckily, I can show you a few tricks!
+Regardless, using Q4 and Q5 right now is not the correct choice to retrain quality, since the degradation is no longer noticeable, but are we out of options? Luckily, I can show you a few tricks!
 
 ## Strategy to mitigate quality
 
@@ -46,13 +46,13 @@ Contrary to the paper, when you reduce the precision of the KV-Cache, MMLU still
 
 ### Strategy 2: You need system prompt, it matters!
 ![](images/claude-prompt.png )
-*System prompt of claude*
+*System prompt of Claude*
 
 Anthropic has published their system prompt of their own model in [this page](https://docs.anthropic.com/en/release-notes/system-prompts#july-12th-2024).
 
-This explains a lot of claude sonnet behaviors like being very concise and follow instruction strictly. This also showing that.
+This explains a lot of Claude sonnet behaviors like being very concise and follow instruction strictly. This also showing that.
 - System prompt can improve model quality
-- System prompt that caters to your likings will improve your experience with the model
+- System prompt that caters to your liking will improve your experience with the model
 - Most model providers have some kinds of system prompt and their api of the model does not behave the same with as their model on their UI.
 
 The below is the instruction I am using now personally
@@ -83,7 +83,7 @@ For example, the testing of Llama3.1 model is based on this configuration.
 ```
 Source: https://huggingface.co/meta-llama/Meta-Llama-3.1-8B/blob/main/generation_config.json
 
-MMLU benchmark scored was specifically tested and achieved with this sampling params. If you want to have simliar experience in the benchmark, you should set this value to the same inside the official repo as well.
+MMLU benchmark scored was specifically tested and achieved with this sampling params. If you want to have similar experience in the benchmark, you should set this value to the same inside the official repo as well.
 
 
 ## Conclusion
@@ -91,4 +91,4 @@ Remember when we jumped out of joy when OpenAI annoucing 32k context windows bac
 
 I have been using Llama3.1 locally for many tasks from programming to formatting data. I hope the tips above will also work out well for you.
 
-Also btw, I have an A2000 with 12gb of VRAM, but I bought it used with the price of 350$, and you can also get card like 4060 Ti with similiar pricing as well. I think the VRAM requirement is reasonable and not "GPU rich" by any means.
+Also, I have an A2000 with 12gb of VRAM, but I bought it used with the price of $350, and you can also get card like 4060 Ti with similar pricing as well. I think the VRAM requirement is reasonable and not "GPU rich" by any means.
