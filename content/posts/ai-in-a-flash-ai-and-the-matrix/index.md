@@ -23,7 +23,7 @@ a_{m1} & a_{m2} & \cdots & a_{mn}
 $$
 
 
-Boring? But this is the fundamental thing that will connect you to "Neural Network" which is the building block of Artificial Intelligence and the like, surprisingly. I will show you how in the section below. But hey, hold on there! Let&#8217;s me tell what you the important thing first.
+Boring? But this is the fundamental thing that will connect you to "Neural Network" which is the building block of Artificial Intelligence and the like, surprisingly. I will show you how in the section below. But hey, hold on there! Lets me tell what you the important thing first.
 
 ## What is Neural Network? 
 
@@ -69,7 +69,7 @@ So we have a probably "approximation" of the said &#8220;neurons&#8221; inside h
 
 ### Forward Pass 
 
-As can be seen from above during the "travel" (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? Is there a formula or something and how does it look like, all of those can be summarized below.
+As can be seen from above during the "travel" (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? So what is it? Is there a formula or something and how does it look like, all of those can be summarized below.
 
 ![Neural network](images/nn-cal.svg)
 
@@ -88,7 +88,7 @@ With the rule above, it will look weirdly similar, how exactly something looks s
   * Can we not calculate node by node?
   * Can we parallelize it so that it&#8217;s calculated faster (right now it seems line by line)
 
-In mathematics, we have the exact thing just for that, down to every single line of calculation, it&#8217;s called **matrix theory (or matrix math)**. This blog is written for whoever already has some background in math at university/high school so I will just remind shortly.
+In mathematics, we have the exact thing just for that, down to every single line of calculation, it&#8217;s called **matrix theory (or matrix math)**. This blog is written for whoever already has some background in math at university/high school, so I will just remind shortly.
 
   * If you have two matrices, A and B, where matrix A is of size **m x p** (where m is the number of rows and n is the number of columns), and matrix B is of size **p x n**,
   * The resulting matrix C, from the dot product A * B, will have the size **m x n**.
@@ -97,11 +97,11 @@ Look familiar ? In this case we can infer from the above chart and fill some inf
 
   * A = \[x1,x2\] (the size is **1 x 2**)
   * C = \[y1, y2, y3, y4\] (the size is **1 x 4**)
-  * Last one is the missing piece? B needs to be having the size of **p x n** (w11, w12&#8230;. and so on)
+  * Last one is the missing piece? B needs to be having the size of **p x n** (w11, w12&#8230;. And so on)
 
 I have written out everything by that logic below.
 
-First let&#8217;s declar vectors and matrix
+First let&#8217;s declare vectors and matrix
 
 
 $$
