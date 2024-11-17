@@ -35,7 +35,7 @@ Welp, one thing you can conclude from this cool image is that maybe, just maybe,
 
 But how exactly this is relevant to matrix or like AI or anything at all ??? Just think about it.
 
-The brain is the most complicated part of the species named **Human** which considers themself **sentient** and have extremely complicated behaviors thinking and invented, discovered quite complicated things like science, rocket,&#8230; and so on. So in fact, the brain posses something we call **intelligence**.
+The brain is the most complicated part of the species named **Human** which considers themselves **sentient** and have extremely complicated behaviors thinking and invented, discovered quite complicated things like science, rocket,&#8230; and so on. So in fact, the brain posses something we call **intelligence**.
 
 ## What is Artificial Intelligence 
 
@@ -48,7 +48,7 @@ But to do that we came up with a thing called **Neural Network** but, welp, the 
 Well you cannot bring tissues into math, obviously, but you can bring the concepts over! So let&#8217;s start with the basics:
 
   * You need it to be interconnected
-  * You need it to carry informations (say a number or something)
+  * You need it to carry information (say a number or something)
   * You need information to change during the "connections" happening
 
 And so something like this has been invented by AI researcher below.
@@ -59,21 +59,21 @@ Each of the small round node inside the chart is called a "cell" each cell is co
 
 Also, you can see, it fulfilled the requirements above:
 
-  * Cell is inter-connected with each other
-  * Inside each cell it has a value (0.1, 0.2&#8230;etc)
+  * Cell is interconnected with each other
+  * Inside each cell it has a value (0.1, 0.2&#8230;, ...)
   * Information is changed during the connecting step (You can see 0.1 is transformed into 0.5 because there is a value of 5 in the line connects the two cells)
 
-So we have an probably "approximation" of the said &#8220;neurons&#8221; inside human brain, but in a mathematical way now.
+So we have a probably "approximation" of the said &#8220;neurons&#8221; inside human brain, but in a mathematical way now.
 
 ## So what does it have to do with "The Matrix" 
 
 ### Forward Pass 
 
-As can be seen from above during the "travel" (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? is there a formula or something and how does it look like, all of those can be summarized below.
+As can be seen from above during the "travel" (or **forward pass** per AI term) the value is changed based on the tiny number resides inside the thin line? so what is it? Is there a formula or something and how does it look like, all of those can be summarized below.
 
 ![Neural network](images/nn-cal.svg)
 
-So what we learnt from the chart and formula above? It looks neat and very organized, maybe it has some rules?
+So what we learned from the chart and formula above? It looks neat and very organized, maybe it has some rules?
 
   * We have 2 input values : [x1,x2]
   * We have 4 output values [y1,y2,y3,y4]
@@ -88,7 +88,7 @@ With the rule above, it will look weirdly similar, how exactly something looks s
   * Can we not calculate node by node?
   * Can we parallelize it so that it&#8217;s calculated faster (right now it seems line by line)
 
-In mathematics we have the exact thing just for that, down to every single line of calculation, it&#8217;s called **matrix theory (or matrix math)**. This blog is written for whoever already has some background in math at university/high school so I will just remind shortly.
+In mathematics, we have the exact thing just for that, down to every single line of calculation, it&#8217;s called **matrix theory (or matrix math)**. This blog is written for whoever already has some background in math at university/high school so I will just remind shortly.
 
   * If you have two matrices, A and B, where matrix A is of size **m x p** (where m is the number of rows and n is the number of columns), and matrix B is of size **p x n**,
   * The resulting matrix C, from the dot product A * B, will have the size **m x n**.
