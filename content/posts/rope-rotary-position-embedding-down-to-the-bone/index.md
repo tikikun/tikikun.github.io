@@ -15,7 +15,7 @@ You may have heard everywhere on Reddit or on Twitter about...
 
 ...and so on.
 
-But for real? What the hell is RoPE and how does it work? They say something about sin and cos, but what does that even mean? Now, I am about to debunk all of that, for your sake.
+But for real? What the hell is RoPE, and how does it work? They say something about sin and cos, but what does that even mean? Now, I am about to debunk all of that, for your sake.
 
 ## The intuition behind RoPE
 
@@ -27,7 +27,7 @@ $$z = a + bi$$
 where:
 * a is the **real part** of the complex number
 * b is the **imaginary part** of the complex number
-* i is the **imaginary unit**, which satisfiee:
+* i is the **imaginary unit**, which satisfies:
 $$
 i^2 = -1
 $$
@@ -78,7 +78,7 @@ $$
 z_1 z_2 = (r_1 \cdot e^{i\theta_1}) \cdot (r_2 \cdot e^{i\theta_2})
 $$
 
-Using the properties of exponentials, we can simplify this expression to:
+Using the properties of exponents, we can simplify this expression to:
 
 $$
 z_1 z_2 = r_1 r_2 \cdot e^{i(\theta_1 + \theta_2)}\\\
@@ -89,16 +89,16 @@ As can be seen from the result above, we can see some features stand out from th
 - The magnitude of the two vector got multiplied into each other
 - The direction of the vector is added to each other (Assuming a complex number is also regarded as a vector)
 
-This makes this operation perfect for anything that is involing encoding "direction (or angle)" and magnitude
+This makes this operation perfect for anything that is involving encoding "direction (or angle)" and magnitude
 
 ## RoPE
 
-Since we got all the intution down we can revisit this chart below.
+Since we got all the intuition down we can revisit this chart below.
 
 ![RoPE](images/rope.png)
 *source https://arxiv.org/pdf/2104.09864v4*
 
-As you can see the core idea behind RoPE is that you can incorporate the position of a token information into the embedding by effectively "tilt" the angle of the vectors that constructs that embedding vector. Conveniently, this is exactly what we have from using complex numbers. So how we go about doing this? Here are steops:
+As you can see the core idea behind RoPE is that you can incorporate the position information of a token into the embedding by effectively "tilt" the angle of the vectors that constructs that embedding vector. Conveniently, this is exactly what we have from using complex numbers. So how we go about doing this? Here are steps:
 1. We need to specify the logic on how each position is corresponding to which angle (first token is 10 degree second is 20 etc.....), this is normally done using "frequency" value so that each position will have a different fixed angle.
 2. Represent each position using a complex number, possibly in **polar form**! (Check above)
 3. Split your embedding vector into sub vectors (pair of 2) and since a vector with 2 values can be considered a complex number, we can rewrite it into **polar form**!
@@ -108,9 +108,9 @@ As you can see the core idea behind RoPE is that you can incorporate the positio
 You can check the function `apply_rotary_emb` in llama3 model implementation, everything happens exactly like what I have described.
 
 ## Conclusion
-By leveraging features of complex numbers, the positional information has been encoded into the attention mechanism of transformer model. Because the encoded information is also effectively an "angle" information, in theory there should be no upper bound or limit in the number of positions you can encode. The positonal information also is encoded dynamically in attention mechanism, there is no fixed context-len for the model but you can expand it as long as you have more data, compute. This method has proven it robustness and effectiveness given the fact that many users, companies can quickly extend the context-len of llama3 which was effectively just 8192. Here is some posts for referrence purposes.
+By leveraging features of complex numbers, the positional information has been encoded into the attention mechanism of transformer model. Because the encoded information is also effectively an "angle" information, in theory there should be no upper bound or limit in the number of positions you can encode. The positional information also is encoded dynamically in attention mechanism, there is no fixed context length for the model, but you can expand it as long as you have more data, compute. This method has proven it robustness and effectiveness given the fact that many users, companies can quickly extend the context length of llama3 which was effectively just 8192. Here are some posts for reference purposes.
 
 [LLama-3-8B-Instruct now extended 1048576 context length landed on HuggingFace](https://www.reddit.com/r/LocalLLaMA/comments/1cg8uzp/llama38binstruct_now_extended_1048576_context/)
 [Extending Llama-3's Context Ten-Fold Overnight](https://arxiv.org/abs/2404.19553)
 
-But all of that comes from the intution of using complex numbers is quite fascinating!
+But all of that comes from the intuition of using complex numbers is quite fascinating!
