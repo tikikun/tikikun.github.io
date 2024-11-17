@@ -71,16 +71,16 @@ So what has been done in the paper? There are a few.
 ## How to replicate that?
 The thing you might notice is that there is actually no code or implementation details from the paper? But can we do something simiilar.
 
-I have implemented the "image tokenizers" with similiar features in this repo
+I have implemented the "image tokenizers" with similar features in this repo
 - [Open Chameleon](https://huggingface.co/alandao/open-chameleon)
 
 What I have done?
 - I re-purpose (not retrain entirely) llama3 tokenizers.
-- Because llama3 tokenizers use tiktoken there is no need to retrain the tokenizers entirely because it will priority full token and will not break words into sub-word if the entire word is matched.
-- I pad the value of codebook to the size of llama3 vocabulary size (beginning_pos = llama3 vocab size + codebook value ).
+- Because llama3 tokenizers use tiktoken there is no need to retrain the tokenizers entirely because it will prioritize full token and will not break words into sub-word if the entire word is matched.
+- I pad the value of codebook to the size of llama3 vocabulary size (beginning_pos = llama3 vocab size + codebook value).
 - I produced some nominal values named "<dis_...>" in order to represent for each of the image tokens 
 
-Using the above technique we can decode and encode the images datasets using VQ-VAE models, but at the same time, we can generate a dataset that can be trained on tradinational LLM model.
+Using the above technique we can decode and encode the images datasets using VQ-VAE models, but at the same time, we can generate a dataset that can be trained on traditional LLM model.
 
 ## Conclusion
 It is not very sure at this moment in time whether we are reaching a stagnation in LLM capability. However, since LLM currently is only trained on text and not truly multimodal, extending scope of "tokenizer" like Chameleon can prove some fruitful results in the upcoming development of LLM models.
