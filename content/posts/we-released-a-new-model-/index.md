@@ -14,9 +14,9 @@ By that, we decided to work on a model that can do sound, that you can talk to i
 "What is the color of the sky?"
 
 We proudly present the result, a working llama3,1 checkpoint (that we call llama3-s) and have ability to listen to you!
-[Annoucement Blog](https://homebrew.ltd/blog/llama3-just-got-ears)
+[Announcement Blog](https://homebrew.ltd/blog/llama3-just-got-ears)
 
 If you don't have the time to skim through the blog post, you can also directly use the demo here:
 - https://huggingface.co/spaces/jan-hq/Llama3.1-s-v0.2
 
-Hope our effort has brought you some joy and fun (because this is a project of passion), thanks!
+Hope our effort has brought you some joy and fun (because this is a project of passion)
