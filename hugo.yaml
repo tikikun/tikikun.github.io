@@ -1,6 +1,6 @@
 baseURL: https://alandao.net
 languageCode: en-us
-title: Alan
+title: Alan Dao's personal blog
 theme:
   - github.com/tikikun/hugo-theme-mini
 
@@ -44,7 +44,7 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Alan
+  author: Alan Dao
   # Author biography
   bio: AI Practitioner
   # Site Description, used in HTML meat
