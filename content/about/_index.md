@@ -11,7 +11,7 @@ Passionate AI Practitioner that wants to build things!
 
 Some of the things I have built, contributed and invented with my dear friends and colleagues.
 
-* https://github.com/homebrewltd/llama3-s
+* https://github.com/janhq/ichigo
 * https://github.com/janhq/jan
 * https://github.com/janhq/cortex (previously nitro - I invented this)
 * https://github.com/janhq/nitro-tensorrt-llm
