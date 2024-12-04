@@ -4,7 +4,11 @@ date: 2024-12-04T12:02:30+07:00
 draft: false
 tags: [ai,career]
 categories: [ai,career]
+images: [images/reality_expectation.png]
 ---
+![Reality vs expectation](images/reality_expectation.png)
+
+
 I’ve noticed that there are plenty of guides and courses on “learning MLOps” available online, but many of them fail to address these critical aspects:  
 
 1. What the daily work looks like  
