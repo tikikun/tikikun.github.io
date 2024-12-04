@@ -18,7 +18,7 @@ I’ve noticed that there are plenty of guides and courses on “learning MLOps�
 With that in mind, I hope to provide a practical perspective based on my personal experience. This could help you adjust your learning path (if you’re planning to transition into this position) or adapt to moving from large companies with standardized processes to smaller companies or startups.  
 
 ## Daily Work  
-
+![MLops](images/ml_ops.jpeg)
 ### **Ideal Perspective**  
 
 When you look online, you’ll often see diagrams like the one above, describing the “activities” of MLOps. These include everything related to a “model lifecycle,” from data sourcing and labeling to versioning and beyond.  
