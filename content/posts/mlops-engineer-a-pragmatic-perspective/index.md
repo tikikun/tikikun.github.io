@@ -13,9 +13,9 @@ I’ve noticed that there are plenty of guides and courses on “learning MLOps�
 
 With that in mind, I hope to provide a practical perspective based on my personal experience. This could help you adjust your learning path (if you’re planning to transition into this position) or adapt to moving from large companies with standardized processes to smaller companies or startups.  
 
-### Daily Work  
+## Daily Work  
 
-#### **Ideal Perspective**  
+### **Ideal Perspective**  
 
 When you look online, you’ll often see diagrams like the one above, describing the “activities” of MLOps. These include everything related to a “model lifecycle,” from data sourcing and labeling to versioning and beyond.  
 
@@ -27,7 +27,7 @@ In reality, when hired as an MLOps Engineer, chances are you’ll only handle a 
 
 In an ideal world, we’d want these problems to be solved. But the business environment we work in is far from perfect. Therefore, it’s essential to understand these limitations and adjust our expectations accordingly.  
 
-#### **Practical Perspective**  
+### **Practical Perspective**  
 
 Your job boils down to this: *“Ensuring that Machine Learning/AI runs smoothly within the organization”* (or at least that’s the employer’s expectation). Below are some common realities that those working in AI model deployment will likely face:  
 
@@ -50,24 +50,24 @@ However, in practice, the tools you actually use could be vastly different:
 - Proxmox  
 - … (depending on the company’s size and scale)  
 
-### Transitioning into MLOps  
+## Transitioning into MLOps  
 
 No one is born an MLOps Engineer. Here are the roles that can more easily transition into MLOps:  
 
-#### **From DevOps**  
+### **From DevOps**  
 
 For experienced DevOps professionals, transitioning to MLOps isn’t too difficult, as the overarching goal remains the same: supporting the efficient operation of ML systems within the company. If you’ve worked in DevOps, you already have a significant advantage in mastering cloud services, tooling, and especially experience in on-premise deployments or setting up systems using GPU-enabled clouds like Runpod. These skills will help you adapt and thrive in an MLOps role.  
 
-#### **From Sys-admin**  
+### **From Sys-admin**  
 
 Similarly, Sys-admins with strong technical backgrounds can transition to MLOps without much difficulty. With experience in server configuration and system resource optimization, you bring valuable skills to small AI-driven companies that often rely on existing hardware or non-standard clouds (like Runpod) and require you to set everything up from scratch.  
 
 If you supplement your skills with experience in cloud tools, cluster management, or container tools like Docker and Kubernetes, you’ll have a significant advantage. However, you’ll also need to acquire specific ML-related knowledge to be effective in this role.  
 
-#### **From… fresh graduates**  
+### **From… fresh graduates**  
 
 If you’re a fresh graduate, having a solid foundation in IT system deployment (as seen in the two roles above) is crucial before you can genuinely work as an “MLOps Engineer,” especially at small and medium-sized companies. Working in an MLOps-specific role without these foundational skills might be possible at large companies with standardized processes, but such opportunities are exceedingly rare.  
 
-### Conclusion  
+## Conclusion  
 
 This is just a personal perspective, as I’ve noticed that many advertised courses and toolsets online seem heavily biased compared to the real-world day-to-day work of MLOps Engineers. I hope the ideas shared here help you balance your expectations and better understand what to expect when you see a “MLOps Engineer” job posting online.
