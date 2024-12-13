@@ -13,7 +13,7 @@ How small can a F5TTS model get? Very small!
 
 Now you can generate synthetic voice using AI, with pretty high quality under very constrained hardware. In order to run F5-TTS quantized version you just need around ~400mb of VRAM. (Spoiler: mac only currently)
 
-.... placeholder for demo audio here....
+{{< youtube q61bZfr8HmI >}}
 
 The entire model pipeline is including the below types of weights:
 - F5-TTS weight (223 MB)
@@ -76,6 +76,16 @@ So the step is:
 3. Quantize the model
 4. Extract the quantized model weight for later use.
 
-## What can i do with this
+## What can I do with Text-to-speech
+A few things:
+- Clone your own voice?
+- Make an AI podcast? (like this [VoiceOver](https://github.com/tikikun/voiceover))
+- Make a voice chatbot (like our paper [🍓Ichigo?](https://github.com/janhq/ichigo))
 
-You can cl
+I have an example usage of the voiceover repo in my SubStack [link](https://neuronsquantized.substack.com/p/multi-modal-tokenizing-with-chameleon) to demonstrate the ability of the model to generate podcast/voiceover. The voice is pretty natural and does not have "robotic" feeling of the model that is at the same size.
+
+Best part, you can do it on any Macbook, totally free. No need expensive Text-to-speech service online anymore.
+
+
+## Appreciation
+
