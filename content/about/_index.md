@@ -13,11 +13,22 @@ Passionate AI Practitioner that wants to build things!
 
 Some of the things I have built, contributed and invented with my dear friends and colleagues.
 
+Things I have built!
+
+## Ichigo
+Ichigo is a multimodal AI model that can handle speech natively with enhanced latency compared to traditional ASR to LLM solution. Find out more below
 * https://github.com/janhq/ichigo
+
+## Jan
+Jan is the most popular open source AI Chatbot Client with more than 1.5M downloads (and counting up)
 * https://github.com/janhq/jan
+
+## Nitro (Now is cortex)
+Super light-weight inference engine for LLM models
 * https://github.com/janhq/cortex (previously nitro - I invented this)
 * https://github.com/janhq/nitro-tensorrt-llm
 
+## Publication
 I also wrote a paper! (More coming soon) Check out my Google Scholar [here](https://scholar.google.com/citations?user=eGWws2UAAAAJ&hl=en)
 
 I believe in the next 10 years, everyone has the access to the most sophisticated and well-tailored education system that has ever existed by the help of mass AI adoption.
