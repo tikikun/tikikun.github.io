@@ -7,6 +7,8 @@ author = "Alan"
 enableComments = false
 +++
 
+![avatar](images/avatar.jpg)
+
 Passionate AI Practitioner that wants to build things!
 
 Some of the things I have built, contributed and invented with my dear friends and colleagues.
@@ -15,6 +17,8 @@ Some of the things I have built, contributed and invented with my dear friends a
 * https://github.com/janhq/jan
 * https://github.com/janhq/cortex (previously nitro - I invented this)
 * https://github.com/janhq/nitro-tensorrt-llm
+
+I also wrote a paper! (More coming soon) Check out my Google Scholar [here](https://scholar.google.com/citations?user=eGWws2UAAAAJ&hl=en)
 
 I believe in the next 10 years, everyone has the access to the most sophisticated and well-tailored education system that has ever existed by the help of mass AI adoption.
 
