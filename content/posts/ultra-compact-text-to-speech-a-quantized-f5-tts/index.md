@@ -1,5 +1,5 @@
 ---
-title: "Ultra Compact Text-to-Speech: A Quantized F5TTS"
+title: "⚡Ultra Compact Text-to-Speech: A Quantized F5TTS"
 date: 2024-12-13T09:30:57+07:00
 draft: false
 tags: []
