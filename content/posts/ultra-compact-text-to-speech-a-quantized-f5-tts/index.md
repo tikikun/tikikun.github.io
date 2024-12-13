@@ -15,7 +15,7 @@ Now you can generate synthetic voice using AI, with pretty high quality under ve
 
 {{< youtube q61bZfr8HmI >}}
 
-The entire model pipeline is including the below types of weights:
+Yes, that's everything you need to do to do voice generating (and voice cloning) on a macbook under 30s. The entire model pipeline is including the below types of weights:
 - F5-TTS weight (223 MB)
 - Duration predictor (86.2 MB)
 - Vocos (53.4 MB)
