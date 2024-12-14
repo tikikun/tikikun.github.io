@@ -2,3 +2,7 @@ table {
 	overflow-x: auto;
 	display: block;
 }
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif!important;
+}
