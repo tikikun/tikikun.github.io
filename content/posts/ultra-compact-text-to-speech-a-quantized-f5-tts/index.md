@@ -46,7 +46,7 @@ Here is a Markdown table comparing the model sizes before and after quantization
 
 ## How the quantization was done?
 You can find the information about how quantization was done inside the code. To save you the effort I will just quote the important part here.
-```python filename="cfm.py"
+```
 cfm.py
 ...
     @classmethod
