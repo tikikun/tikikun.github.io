@@ -7,6 +7,10 @@ table {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif!important;
 }
 
+
+/*
+ * The below is to fix a bug identified in this issue https://github.com/adityatelange/hugo-PaperMod/issues/828
+ */
 code {
     text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
