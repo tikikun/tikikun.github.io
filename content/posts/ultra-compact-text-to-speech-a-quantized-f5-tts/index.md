@@ -88,10 +88,7 @@ Best part, you can do it on any Macbook, totally free. No need expensive Text-to
 
 
 ## Appreciation
-
-[Lucas Newman](https://github.com/lucasnewman/f5-tts-mlx) for original implementation of F5 TTS on MLX
-
-[Yushen Chen](https://github.com/SWivid) for the original Pytorch implementation of F5 TTS and pretrained model.
-
-[Phil Wang](https://github.com/lucidrains) for the E2 TTS implementation that this model is based on.
+- [Lucas Newman](https://github.com/lucasnewman/f5-tts-mlx) for original implementation of F5 TTS on MLX
+- [Yushen Chen](https://github.com/SWivid) for the original Pytorch implementation of F5 TTS and pretrained model.
+- [Phil Wang](https://github.com/lucidrains) for the E2 TTS implementation that this model is based on.
 
