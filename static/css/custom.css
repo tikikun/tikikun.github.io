@@ -7,10 +7,6 @@ h1,h2,h3,p,ul,ol,p {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif!important;
 }
 
-#single {
-  max-width: 728px; /* new max-width value */
-}
-
 /*
  *
  * The below is to fix a bug identified in this issue https://github.com/adityatelange/hugo-PaperMod/issues/828
