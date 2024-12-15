@@ -7,8 +7,12 @@ table {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif!important;
 }
 
+#single {
+  max-width: 728px; /* new max-width value */
+}
 
 /*
+ *
  * The below is to fix a bug identified in this issue https://github.com/adityatelange/hugo-PaperMod/issues/828
  */
 code {
@@ -16,4 +20,28 @@ code {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+
+pre {
+  font-size: 16px;
+  margin-block-start: 0.8em;
+  margin-block-end: 0.8em;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+code {
+  font-size: 16px;
+  font-family: 'Courier New', monospace;
+  line-height: 1.2;
+}
+
+pre code {
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
 }
