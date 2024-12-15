@@ -22,7 +22,7 @@ disqusShortname: alan-blog-2
 markup:
   highlight:
     guessSyntax: true
-    style: emacs
+    style: base16-snazzy
   tableOfContents:
     endLevel: 3
     ordered: false
