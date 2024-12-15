@@ -1,46 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 table {
-	overflow-x: auto;
-	display: block;
+    overflow-x: auto;
+    display: block;
 }
 
-* {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif!important;
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+code, pre, pre code {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace,"JetBrains Mono"!important;
+}
+
+
+p, ol, ul, li, a, div, blockquote, table, th, td, nav, #footer, button, input, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif;
 }
 
 /*
  *
  * The below is to fix a bug identified in this issue https://github.com/adityatelange/hugo-PaperMod/issues/828
  */
-code {
-    text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
 
 pre {
   font-size: 16px;
   margin-block-start: 0.8em;
   margin-block-end: 0.8em;
   padding: 1em;
-  background-color: #f9f9f9;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 code {
   font-size: 13px;
-  line-height: 1.05;
+  line-height: 1.2;
 }
 
-pre code {
-  padding: 0;
-  border: none;
-  border-radius: 0;
-  background-color: transparent;
-  box-shadow: none;
+code, pre {
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 img {
   border-radius: 5px;
 }
+
