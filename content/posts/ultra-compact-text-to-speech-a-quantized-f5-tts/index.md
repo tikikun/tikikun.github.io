@@ -41,8 +41,7 @@ Here is a Markdown table comparing the model sizes before and after quantization
 | F5-TTS Weight | 1.3 GB | 223 MB (4bit) |
 | Duration Predictor | 86.2 MB | 86.2 MB |
 | Vocos | 53.4 MB | 53.4 MB |
-| **Total Size** | **1.4396 GB** | **362.6 MB** |
-| **Compression Ratio** | - | ~ 4 times |
+| Total Size | 1.4396 GB | **362.6 MB** |
 
 ## How the quantization was done?
 You can find the information about how quantization was done inside the code. To save you the effort I will just quote the important part here.
