@@ -83,4 +83,6 @@ Arxiv link: https://arxiv.org/abs/2210.02747
 ![F5-TTS](images/f5tts.png)
 Arxiv link: https://arxiv.org/abs/2410.06885
 
-**Explanation:** This is a very straight-forward and effective implementation of flow matching in OT scenario. The model employs a Diffusion Transformer (DiT)
+**Explanation:** This is a very straight-forward and effective implementation of flow matching in OT scenario. The model employs a Diffusion Transformer (DiT) to essentially train a "vector field" generator by matching the generated field with Optimal Transport field. Because we can generate the vector field on input sample, we can use an **ODE solver** to figure out the target prediction.
+
+_Note: F5TTS model quality is very high compared to its size, you can check out more about that in my previous blog post [⚡Ultra Compact Text-to-Speech: A Quantized F5TTS](https://alandao.net/posts/ultra-compact-text-to-speech-a-quantized-f5tts/)_ 
