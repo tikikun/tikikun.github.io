@@ -30,7 +30,7 @@ Right now as of today in Dec, it is around ~1000 papers on a daily basis for CS 
 There are no lack of papers to read, so we might as well get started on these 10 papers, and 3 categories from mine.
 
 ---
-##  Emergence Compressive Behavior
+## Emergence Compressive Behavior
 
 This category explores how the "internal states" or "hidden states" of large language models (LLMs) are inherently redundant and sparse. By leveraging the model's own ability—particularly the transformer decoder's capacity—we can generate a compressed version of these internal states for reusability. Essentially, this process mimics a form of compression within the model itself.
 
@@ -53,11 +53,22 @@ Arxiv link: https://arxiv.org/abs/2410.19034
 ### 3. Task Vectors are Cross-Modal
 
 ![Task Vectors](images/task-vector-cross-modal.png)
+Arxiv link: https://arxiv.org/abs/2410.22330 
 
 **Explanation:** This paper follows up task vector paper with an interesting insight. In multimodal LLM model, the decoder will generate **nearly the same** task vectors when prompted with an **image instruction** compared to prompted with **normal text**. Hence, the task vector, or task function is a robust and universal way to describe task in decoder model. This has many implications for developing multimodal model. (And probably explain why [Ichigo](https://arxiv.org/abs/2410.15316) can convert so well with new sound tokens).
 
 ### 4. Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
 
 ![Compressed CoT](images/compressed-cot.png)
+Arxiv link: https://arxiv.org/abs/2412.13171
+
 
 **Explanation:** This paper attempts to "compress" Chain-of-Thought (CoT) by selecting important hidden states of specific tokens rather than using the entire hidden states of all tokens during CoT generation. By doing so, they train a model to predict only the **important** hidden states within the CoT process and decode based solely on these, instead of the entire text-based CoT, which is inefficient. This approach achieves nearly the same performance as the full-text version.
+
+---
+## Distribution Matching
+This year marked the release of [FLUX](https://github.com/black-forest-labs/flux) model, which is a wildly successful successor to **Stable Diffusion** model family. This model has proven how flow matching can achieve result that is way beyond what diffusion model can do.
+
+BFL did not provide an official report about FLUX but since it is so successful a lot of people have writings about that already, you can check that up online. Because that has been done, I will provide other papers that is not directly relevant but useful to learn about Flow matching topic.
+
+### 1. Flow Matching F
