@@ -29,7 +29,7 @@ Right now as of today in Dec, it is around ~1000 papers on a daily basis for CS 
 
 There are no lack of papers to read, so we might as well get started on these 10 papers, and 3 categories from mine.
 
-
+---
 ##  Emergence Compressive Behavior
 
 This category explores how the "internal states" or "hidden states" of large language models (LLMs) are inherently redundant and sparse. By leveraging the model's own ability—particularly the transformer decoder's capacity—we can generate a compressed version of these internal states for reusability. Essentially, this process mimics a form of compression within the model itself.
@@ -55,3 +55,5 @@ Arxiv link: https://arxiv.org/abs/2410.19034
 ![Task Vectors](images/task-vector-cross-modal.png)
 
 **Explanation:** This paper follows up task vector paper with an interesting insight. In multimodal LLM model, the decoder will generate **nearly the same** task vectors when prompted with an **image instruction** compared to prompted with **normal text**. Hence, the task vector, or task function is a robust and universal way to describe task in decoder model. This has many implications for developing multimodal model. (And probably explain why [Ichigo](https://arxiv.org/abs/2410.15316) can convert so well with new sound tokens).
+
+### 4. Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
