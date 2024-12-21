@@ -94,4 +94,15 @@ Paper link: https://aclanthology.org/2024.eacl-short.33/ (idk why they do not re
 
 **Explanation:** One might ask if it is just on continuous space how you can do it for discrete codes? This paper did this thing using codebook lookup mechanism that resembling vector quantization for output. The implementation also is kept simple and straight forward.
 
+---
+## Alternative
+There are other observations that I cannot classify into a single category in this post. Those papers will belong here.
 
+### 8. Scaling Laws for Precision
+
+![Scaling Laws for Precision](images/scaling.png)
+Arxiv link: https://arxiv.org/abs/2411.04330
+
+**Explanation:** This papers follow relatively similar vibe of Chinchilla scaling paper. However, instead of compute, the main target of analysis is "precision". Precision here is data type precision during training and calculation. The paper shows evidence that with lower precision (3bit 4bit) the model will not be able to effectively "learn" and even perform worse. With the contemporaneous landscape of "extreme quantization" like 1.5-bit or 2-bit quantization, this result is very critical.
+
+### 9. 
