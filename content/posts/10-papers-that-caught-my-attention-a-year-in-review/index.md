@@ -125,7 +125,7 @@ Beyond this I also have an older blog post : https://alandao.net/posts/multi-mod
 ## Honorable mention
 ### 11. Ichigo: Mixed-Modal Early-Fusion Realtime Voice Assistant
 
-![](image/ichigo.png)
+![](images/ichigo.png)
 Arxiv link: https://arxiv.org/abs/2410.15316
 
 **Explanation:** Well this is my paper that I worked on with Bach and Rex from Homebrew Research. We have employed Chameleon, but we have proven that mass scale pretraining and architecture change is not needed. We have also proven that cross modality instruction can make the model to adapt to a new modality with mostly just prompting and tried many other interesting things.
