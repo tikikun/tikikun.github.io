@@ -57,3 +57,7 @@ Arxiv link: https://arxiv.org/abs/2410.19034
 **Explanation:** This paper follows up task vector paper with an interesting insight. In multimodal LLM model, the decoder will generate **nearly the same** task vectors when prompted with an **image instruction** compared to prompted with **normal text**. Hence, the task vector, or task function is a robust and universal way to describe task in decoder model. This has many implications for developing multimodal model. (And probably explain why [Ichigo](https://arxiv.org/abs/2410.15316) can convert so well with new sound tokens).
 
 ### 4. Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
+
+![Compressed CoT](images/compressed-cot.png)
+
+**Explanation:** This paper tried to "compress" Chain-of-Thought by just picking important hidden states of some selected tokens rather than the entire hidden states of all tokens during Chain-of-Thought generation. By doing this they can train a model to just predict the **important** hidden states inside the CoT generation and specifically just decode on them instead of the entire text CoT which is inefficient and achieve almost the same performance with full text version.
