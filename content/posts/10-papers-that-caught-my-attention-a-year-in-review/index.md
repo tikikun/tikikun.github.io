@@ -71,14 +71,14 @@ This year marked the release of [FLUX](https://github.com/black-forest-labs/flux
 
 BFL did not provide an official report about FLUX but since it is so successful a lot of people have writings about that already, you can check that up online. Because that has been done, I will provide other papers that is not directly relevant but useful to learn about Flow matching topic.
 
-### 1. Flow Matching for Generative Modeling
+### 5. Flow Matching for Generative Modeling
 
 ![Flow matching](images/flow-matching.png)
 Arxiv link: https://arxiv.org/abs/2210.02747
 
 **Explanation:** It is hard to simplify the explanation for this paper, but it will provide very foundational understanding on how we are able to and can do flow matching for generative model. It introduces two vital concepts `Conditional Flow Matching` and `Optimal Transport` and relevant proofs. Essentially it provides a way to find out the **vector field** that can provide a path to transform your **input** into **target** without any time-dependent process like diffusion (where you add random noise backwards). The image is an example on how optimal transport can provide a much faster way to travel to the target vs diffusion, with very early emergent features from a few steps.
 
-### 2. F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
+### 6. F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 
 ![F5-TTS](images/f5tts.png)
 Arxiv link: https://arxiv.org/abs/2410.06885
@@ -86,3 +86,12 @@ Arxiv link: https://arxiv.org/abs/2410.06885
 **Explanation:** This is a very straight-forward and effective implementation of flow matching in OT scenario. The model employs a Diffusion Transformer (DiT) to essentially train a "vector field" generator by matching the generated field with Optimal Transport field. Because we can generate the vector field on input sample, we can use an **ODE solver** to figure out the target prediction. By doing so, we can make the model to "generate voice" by transform the original noise into "conditioned" output.
 
 _Note: F5TTS model quality is very high compared to its size, you can check out more about that in my previous blog post [⚡Ultra Compact Text-to-Speech: A Quantized F5TTS](https://alandao.net/posts/ultra-compact-text-to-speech-a-quantized-f5tts/)_ 
+
+### 7. Flow Matching for Conditional Text Generation in a Few Sampling Steps
+
+![FlowSeq](images/flowseq.png)
+Paper link: https://aclanthology.org/2024.eacl-short.33/ (idk why they do not release on arxiv)
+
+**Explanation:** One might ask if it is just on continuous space how you can do it for discrete codes? This paper did this thing using codebook lookup mechanism that resembling vector quantization for output. The implementation also is kept simple and straight forward.
+
+
