@@ -60,4 +60,4 @@ Arxiv link: https://arxiv.org/abs/2410.19034
 
 ![Compressed CoT](images/compressed-cot.png)
 
-**Explanation:** This paper tried to "compress" Chain-of-Thought by just picking important hidden states of some selected tokens rather than the entire hidden states of all tokens during Chain-of-Thought generation. By doing this they can train a model to just predict the **important** hidden states inside the CoT generation and specifically just decode on them instead of the entire text CoT which is inefficient and achieve almost the same performance with full text version.
+**Explanation:** This paper attempts to "compress" Chain-of-Thought (CoT) by selecting important hidden states of specific tokens rather than using the entire hidden states of all tokens during CoT generation. By doing so, they train a model to predict only the **important** hidden states within the CoT process and decode based solely on these, instead of the entire text-based CoT, which is inefficient. This approach achieves nearly the same performance as the full-text version.
