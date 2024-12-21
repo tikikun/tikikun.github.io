@@ -105,4 +105,34 @@ Arxiv link: https://arxiv.org/abs/2411.04330
 
 **Explanation:** This papers follow relatively similar vibe of Chinchilla scaling paper. However, instead of compute, the main target of analysis is "precision". Precision here is data type precision during training and calculation. The paper shows evidence that with lower precision (3bit 4bit) the model will not be able to effectively "learn" and even perform worse. With the contemporaneous landscape of "extreme quantization" like 1.5-bit or 2-bit quantization, this result is very critical.
 
-### 9. 
+### 9. Round and Round We Go! What makes Rotary Positional Encodings useful? 
+
+![RoPE](images/rope.png)
+Arxiv link: https://arxiv.org/abs/2410.06205
+
+**Explanation:** This paper provides multiple analyses of how RoPE affects the training and inference processes of LLM models. It highlights insights that can simplify the development of longer-context-length models by separating the frequency usage of RoPE into positional and semantic components.
+
+### 10. Chameleon: Mixed-Modal Early-Fusion Foundation Models
+
+![Chameleon](images/chameleon.png)
+Arxiv link: https://arxiv.org/abs/2405.09818
+
+**Explanation:** I think I have mentioned this multiple times this year, to me, it is just extremely natural way to do multimodality. To train a multimodal model, you just need to discretize the model and train it in an exact same way that you train any other text LLM model.
+
+Beyond this I also have an older blog post : https://alandao.net/posts/multi-modal-tokenizing-with-chameleon/ to further explain this paper.
+
+---
+## Honorable mention
+### 11. Ichigo: Mixed-Modal Early-Fusion Realtime Voice Assistant
+
+![](image/ichigo.png)
+Arxiv link: https://arxiv.org/abs/2410.15316
+
+**Explanation:** Well this is my paper that I worked on with Bach and Rex from Homebrew Research. We have employed Chameleon, but we have proven that mass scale pretraining and architecture change is not needed. We have also proven that cross modality instruction can make the model to adapt to a new modality with mostly just prompting and tried many other interesting things.
+
+This is the first research paper we have done at our company and with friends! It is very memorable so I just want to do some shameless self-promotion plug on my own blog, but hey! hope you enjoy it!
+
+You can check out more at official blog post from the company: https://homebrew.ltd/blog/llama-learns-to-talk
+
+## Conclusion
+Those are the papers that I think some are not mainstream, some not even popular, but can offer you insight into other papers or works that is done in 2024. Hope you enjoy the list!
