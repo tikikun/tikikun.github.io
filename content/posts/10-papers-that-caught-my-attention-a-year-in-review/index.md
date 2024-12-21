@@ -76,7 +76,7 @@ BFL did not provide an official report about FLUX but since it is so successful 
 ![Flow matching](images/flow-matching.png)
 Arxiv link: https://arxiv.org/abs/2210.02747
 
-**Explanation:** It is hard to simplify the explanation for this paper, but it will provide very foundational understanding on how we are able to and can do flow matching for generative model. It introduces two vital concepts **Conditional Flow Matching** and **Optimal Transport** and relevant proofs. Essentially it provides a way to find out the **vector field** that can provide a path to transform your **input** into **target** without any time-dependent process like diffusion (where you add random noise backwards). The image is an example on how optimal transport can provide a much faster way to travel to the target vs diffusion, with very early emergent features from a few steps.
+**Explanation:** It is hard to simplify the explanation for this paper, but it will provide very foundational understanding on how we are able to and can do flow matching for generative model. It introduces two vital concepts `Conditional Flow Matching` and `Optimal Transport` and relevant proofs. Essentially it provides a way to find out the **vector field** that can provide a path to transform your **input** into **target** without any time-dependent process like diffusion (where you add random noise backwards). The image is an example on how optimal transport can provide a much faster way to travel to the target vs diffusion, with very early emergent features from a few steps.
 
 ### 2. F5-TTS: A Fairytaler that Fakes Fluent and Faithful Speech with Flow Matching
 
