@@ -10,9 +10,9 @@ enableComments = false
 ![avatar](images/avatar.jpg)
 
 ## For work
-Email: contact@alandao.net
-Github: https://github.com/tikikun
-Twitter: https://x.com/alandao_ai
+- Email: contact@alandao.net
+- Github: https://github.com/tikikun
+- Twitter: https://x.com/alandao_ai
 
 ## About me
 
