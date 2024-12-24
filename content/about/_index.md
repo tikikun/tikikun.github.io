@@ -9,6 +9,13 @@ enableComments = false
 
 ![avatar](images/avatar.jpg)
 
+## For work
+Email: contact@alandao.net
+Github: https://github.com/tikikun
+Twitter: https://x.com/alandao_ai
+
+## About me
+
 Passionate AI Practitioner that wants to build things!
 
 Some of the things I have built, contributed and invented with my dear friends and colleagues.
