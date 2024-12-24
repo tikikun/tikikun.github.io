@@ -12,7 +12,7 @@ hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-paginate: 3
+paginate: 5
 
 googleAnalytics: G-ZCH80YBTD1
 disqusShortname: alan-blog-2 
