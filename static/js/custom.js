@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             // Send the email to the API endpoint
-            fetch('https://api.alandao.net/subscribe', {
+            fetch('https://alandao.net/subscribe', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
