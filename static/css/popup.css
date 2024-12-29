@@ -81,7 +81,7 @@
 /* Add this media query to make the max-width flexible on phone screens */
 @media only screen and (max-width: 768px) {
    .popup-content {
-        max-width: 70%; /* or any other value that suits your design */
+        max-width: 80%; /* or any other value that suits your design */
         padding: 15px; /* adjust padding for smaller screens */
     }
    .popup-content.subscription input {
