@@ -46,7 +46,7 @@
 }
 
 .popup-content .subscription input {
-    width: 70%;
+    width: 65%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -76,4 +76,19 @@
 
 .popup-content .no-thanks:hover {
     text-decoration: underline;
+}
+
+/* Add this media query to make the max-width flexible on phone screens */
+@media only screen and (max-width: 768px) {
+   .popup-content {
+        max-width: 70%; /* or any other value that suits your design */
+        padding: 15px; /* adjust padding for smaller screens */
+    }
+   .popup-content.subscription input {
+        width: 100%; /* make input field full-width on smaller screens */
+        margin-bottom: 10px; /* add some margin bottom */
+    }
+   .popup-content.subscription button {
+        width: 100%; /* make button full-width on smaller screens */
+    }
 }
