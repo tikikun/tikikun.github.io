@@ -1,0 +1,15 @@
+<!-- layouts/partials/popup.html -->
+{{ with site.Params.popup }}
+<div id="popup-overlay" style="display:none;">
+    <div class="popup-content">
+        <h1>{{ .title }}</h1>
+        <p class="intro">{{ .intro }}</p>
+        <p class="author">{{ .author }}</p>
+        <div class="subscription">
+            <input type="email" placeholder="{{ .emailPlaceholder }}">
+            <button>{{ .subscribeButton }}</button>
+        </div>
+        <a href="#" class="no-thanks">{{ .noThanksText }}</a>
+    </div>
+</div>
+{{ end }}
