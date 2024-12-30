@@ -4,7 +4,7 @@ date: 2024-05-01T15:54:45+07:00
 draft: false
 tags: [ai]
 categories: []
-images: [images/rope.png]
+images: [/images/rope.png]
 ---
 
 You may have heard everywhere on Reddit or on Twitter about...

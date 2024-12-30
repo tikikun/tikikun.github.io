@@ -4,7 +4,7 @@ date: 2024-07-20T21:00:53+07:00
 draft: false
 tags: [ai]
 categories: []
-images: [images/just_how_you_feel_out_of_memory.jpg]
+images: [/images/just_how_you_feel_out_of_memory.jpg]
 ---
 
 ## The Error of Death
