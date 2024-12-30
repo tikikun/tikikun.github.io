@@ -4,7 +4,7 @@ date: 2024-12-29T21:51:59+07:00
 draft: false
 tags: [ai, deepseek]
 categories: [ai]
-images: [images/thumb.png]
+images: [/images/thumb.png]
 ---
 
 ![DeepSeek Architecture](images/deepseek-arch.png)

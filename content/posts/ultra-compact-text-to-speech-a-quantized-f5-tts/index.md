@@ -4,7 +4,7 @@ date: 2024-12-13T09:30:57+07:00
 draft: false
 tags: []
 categories: []
-images: [images/f5tts.png]
+images: [/images/f5tts.png]
 ---
 
 ![F5TTS](images/f5tts.png)
