@@ -4,7 +4,7 @@ date: 2024-08-24T14:48:54+07:00
 draft: false
 tags: [ai]
 categories: []
-images: [images/Llama3s.webp]
+images: [/images/Llama3s.webp]
 ---
 Dated back to this post [Multi Modal Tokenizing With Chameleon](../multi-modal-tokenizing-with-chameleon/). I have worked with my team at [HomeBrew Research](https://homebrew.ltd/) to make something. We wanted to give the community something new and not simply a replicate of Chameleon (vision modality).
 

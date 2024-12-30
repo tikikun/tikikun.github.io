@@ -7,13 +7,21 @@ categories: [ai]
 images: [/images/thumb.png]
 ---
 
+<<<<<<< HEAD
 ![DeepSeek Architecture](images/thumb.png)
+=======
+![DeepSeek Architecture](images/deepseek-arch.png)
+>>>>>>> 3dbf1a2a103e1e9ac6ad6fb2ea7063ca3cd209f7
 
 DeepSeek-V3 is the latest model in the DeepSeek's model family. The model itself is packed with many cummulative efforts to improve the performance of the model.
 
 The model is literally blowing every closed source or open source model out of the water given its size.
 
+<<<<<<< HEAD
 ![DeepSeek Architecture](images/deepseek-arch.png)
+=======
+![](images/deepseek-bench.png)
+>>>>>>> 3dbf1a2a103e1e9ac6ad6fb2ea7063ca3cd209f7
 
 But what made DeepSeek-V3 so good? Let's deep dive.
 
