@@ -4,7 +4,7 @@ date: 2024-12-21T09:13:03+07:00
 draft: false
 tags: [ai, papers, science, arxiv]
 categories: [ai]
-images: [/images/santa-clause.png]
+images: [images/santa-clause.png]
 ---
 
 ![AI Santa](images/santa-clause.png)

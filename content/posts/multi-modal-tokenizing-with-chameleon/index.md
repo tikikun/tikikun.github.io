@@ -4,7 +4,7 @@ date: 2024-05-21T21:54:56+07:00
 draft: false
 tags: [ai]
 categories: []
-images: [/images/gpt2_fizz.png]
+images: [images/gpt2_fizz.png]
 ---
 ![](images/gpt2_fizz.png)
 

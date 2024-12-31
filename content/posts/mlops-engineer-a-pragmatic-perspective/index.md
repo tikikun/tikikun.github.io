@@ -4,7 +4,7 @@ date: 2024-12-04T12:02:30+07:00
 draft: false
 tags: [ai,career]
 categories: [ai,career]
-images: [/images/reality_expectation.png]
+images: [images/reality_expectation.png]
 ---
 ![Reality vs expectation](images/reality_expectation.png)
 

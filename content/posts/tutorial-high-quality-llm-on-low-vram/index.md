@@ -4,7 +4,7 @@ date: 2024-08-31T16:24:06+07:00
 draft: false
 tags: [ai,llm]
 categories: []
-images: [/images/llama-sunglasses-meadow.jpg] 
+images: [images/llama-sunglasses-meadow.jpg] 
 ---
 
 ![](images/llama-sunglasses-meadow.jpg)
