@@ -1,5 +1,5 @@
 ---
-title: "We Released a New Model "
+title: "We Released a New Model"
 date: 2024-08-24T14:48:54+07:00
 draft: false
 tags: [ai]
