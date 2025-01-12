@@ -43,6 +43,7 @@ social:
 
 # Site parameters
 params:
+  env: production
   # Site Author
   author: Alan Dao
   # Author biography
