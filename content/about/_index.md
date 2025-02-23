@@ -24,6 +24,7 @@ Things I have built!
 
 ## Ichigo
 Ichigo is a multimodal AI model that can handle speech natively with enhanced latency compared to traditional ASR to LLM solution. Find out more below
+![](./images/ichigo_strawberry.png)
 * https://github.com/janhq/ichigo
 * https://arxiv.org/abs/2410.15316
 
