@@ -25,6 +25,14 @@ Things I have built!
 ## Ichigo
 Ichigo is a multimodal AI model that can handle speech natively with enhanced latency compared to traditional ASR to LLM solution. Find out more below
 * https://github.com/janhq/ichigo
+* https://arxiv.org/abs/2410.15316
+
+## AlphaMaze
+AlphaMaze is a novel two-stage training framework that equips LLMs with visual reasoning abilities for maze navigation using Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO).
+![](./images/alphamaze.gif)
+Find out more:
+* https://github.com/janhq/visual-thinker
+* https://arxiv.org/abs/2502.14669
 
 ## Jan
 Jan is the most popular open source AI Chatbot Client with more than 1.5M downloads (and counting up)
