@@ -8,7 +8,7 @@ categories: [ai]
 
 ![](images/overall_trend.png)
 
-If you pay attention, OpenRouter total tokens used count on their website has increased significantly. In fact, I have crawled all of their public data on the number of tokens used on their official page and try come up with some stats above, showing OpenRouter’s 76x growth since 2024.
+If you pay attention, OpenRouter total tokens used count on their website has increased significantly. In fact, I have crawled all of their public data on the number of tokens used on their official page and try come up with some stats above, showing OpenRouter’s 76x growth since 2024 (y-axis is in **10B**).
 
 ## What give way to the success of OpenRouter?
 
