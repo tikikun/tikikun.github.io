@@ -16,7 +16,7 @@ The success of **OpenRouter** isn’t merely a standalone phenomenon—it’s de
 
 Looking at the contributions of each app on OpenRouter below can give you some more hints on what I mean.
 
-### **2. Top 5 Apps by Total Tokens**  
+**Top 5 Apps by Total Tokens**  
 | Title               | Tokens        |
 |---------------------|---------------|
 | Cline               | 46,790,000,000|
