@@ -1,5 +1,5 @@
 ---
-title: "The Imminent Rise of Openrouter: Powered by the Ai Coder Revolution"
+title: "The Imminent Rise of Openrouter: Powered by the AI Code Editor"
 date: 2025-03-08T11:21:30+07:00
 draft: false
 tags: [ai]
