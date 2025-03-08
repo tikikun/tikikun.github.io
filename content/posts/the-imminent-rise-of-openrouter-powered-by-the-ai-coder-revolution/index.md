@@ -4,6 +4,7 @@ date: 2025-03-08T11:21:30+07:00
 draft: false
 tags: [ai]
 categories: [ai]
+images: [images/overall_trend.png]
 ---
 
 ![](images/overall_trend.png)
