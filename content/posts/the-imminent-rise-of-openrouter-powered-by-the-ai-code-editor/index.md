@@ -30,7 +30,7 @@ A look at the top apps by token usage on OpenRouter helps illustrate this:
 
 
 ## The AI Coder Trend: Cursor Ignited the Spark  
-The rise of **AI coders**—tools that automate code generation, debugging, and optimization—has been a defining force in software development. While Cursor is often credited with kickstarting this movement in **August 2025**, the groundwork was laid earlier by trends like:  
+The rise of **AI coders**—tools that automate code generation, debugging, and optimization—has been a defining force in software development. While Cursor is often credited with kickstarting this movement in **August 2024**, the groundwork was laid earlier by trends like:  
 - **Generative AI adoption**: Majority of developers identified AI Code edtiors as a most realistic productivity tool currently (regardless of their bosses want AI employyes now!), driving demand for platforms like OpenRouter that power these tools.  
 - **Productivity gains**: Studies show developers using GenAI can boost efficiency by many times, making AI coders indispensable. Recent case of levels.io using code editor to build plane simulator and made 50k usd is a prime example [Pieter Levels used AI to build a viral flight simulator in 3 hours ](https://www.indiehackers.com/post/tech/pieter-levels-used-ai-to-build-a-viral-flight-simulator-in-3-hours-with-no-background-in-game-development-7CPfMr1yRLEwH6cC8xhE#:~:text=Pieter%20Levels%20used%20AI%20to%20build%20a%203D%20flight%20simulator,crash%E2%80%A6%20in%20a%20good%20way.&text=If%20you%20haven't%20heard,having%20zero%20game%20dev%20experience.)  
 
