@@ -40,7 +40,7 @@ The synergy between AI code editors (like Cursor and Cline) and backend AI infra
 
 ## OpenRouter’s Strategic Edge
 OpenRouter’s rise isn’t just about AI hype. It has successfully leveraged two major industry shifts:
-- Developers moving away from proprietary models: A growing number of developers are abandoning OpenAI’s models in favor of open-source alternatives. By December 2024, Google’s models captured 50% of developer market share on OpenRouter—up from just 5% earlier that year.
+- Developers moving away from proprietary models: A growing number of developers are abandoning OpenAI’s models in favor of open-source alternatives. 
 - Customization and flexibility: Many AI-driven tools, such as Cursor and DeepSeek R1, rely on OpenRouter’s API to deploy fine-tuned models without needing to build infrastructure from scratch. This adaptability has made OpenRouter the go-to platform for cutting-edge AI applications.
 
 This alignment with open-source trends (e.g., customizable models, ethical AI practices) positions OpenRouter as the backbone for next-gen developer tools.
