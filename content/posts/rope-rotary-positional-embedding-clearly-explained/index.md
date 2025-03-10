@@ -1,5 +1,5 @@
 ---
-title: "Rotary Position Embedding (RoPE) Clearly Explained"
+title: "Rotary Positional Embedding (RoPE) Clearly Explained"
 date: 2024-05-01T15:54:45+07:00
 draft: false
 tags: [ai]
