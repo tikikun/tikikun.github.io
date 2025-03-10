@@ -28,7 +28,7 @@ A look at the top apps by token usage on OpenRouter helps illustrate this:
 | SillyTavern         | 7,469,500,000 |
 | OpenRouter: Chatroom| 6,120,000,000 |
 
-## The AI Coder Trend: Cursor Ignited the Spark—Cline Propelled the Flame  
+## The AI Coder Trend: Cursor Ignited the Spark 
 The rise of **AI coders**—tools that automate code generation, debugging, and optimization—has revolutionized software development. While Cursor is often credited with sparking this movement in **August 2024**, its success has paved the way for subsequent innovations like **Cline**, a next-gen AI code editor. These tools reflect broader trends driving the industry:  
 
 - **Generative AI adoption**: A majority of developers now view AI code editors as the most realistic productivity tool available today, driving demand for infrastructure platforms like OpenRouter that power these tools.  
