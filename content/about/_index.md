@@ -53,8 +53,22 @@ Super light-weight inference engine for LLM models
 * https://github.com/janhq/nitro-tensorrt-llm
 
 ## Publication
-I also wrote a paper! (More coming soon) Check out my Google Scholar [here](https://scholar.google.com/citations?user=eGWws2UAAAAJ&hl=en)
+I also wrote some papers! (More coming soon.) Check out my Google Scholar [here](https://scholar.google.com/citations?user=eGWws2UAAAAJ&hl=en).
 
-I believe in the next 10 years, everyone has the access to the most sophisticated and well-tailored education system that has ever existed by the help of mass AI adoption.
+- **Ichigo: Mixed-Modal Early-Fusion Realtime Voice Assistant**  
+  *Alan Dao, Dinh Bach Vu, Huy Hoang Ha*  
+  [arXiv:2410.15316](https://arxiv.org/abs/2410.15316)
 
-Future is bright!
+- **AlphaMaze: Enhancing Large Language Models' Spatial Intelligence via GRPO**  
+  *Alan Dao, Dinh Bach Vu*  
+  [arXiv:2502.14669](https://arxiv.org/abs/2502.14669)
+
+- **PoseLess: Depth-Free Vision-to-Joint Control via Direct Image Mapping with VLM**  
+  *Alan Dao, Dinh Bach Vu, Tuan Le Duc Anh, Bui Quang Huy*  
+  [arXiv:2503.07111](https://arxiv.org/abs/2503.07111)
+
+---
+
+I believe that in the next 10 years, everyone will have access to the most sophisticated and well-tailored education system that has ever existed, thanks to mass AI adoption.
+
+**The future is bright! 🚀**
