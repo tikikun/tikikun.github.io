@@ -4,7 +4,7 @@ date: 2025-03-15T09:05:26+07:00
 draft: false
 tags: []
 categories: []
-images: [./images/alphamaze_thumb.gif]
+images: [./images/alphamaze_thumb.png]
 ---
 This quarter, I focused on launching two major projects:  
 
