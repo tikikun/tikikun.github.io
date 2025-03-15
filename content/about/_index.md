@@ -43,7 +43,7 @@ Find out more:
 * https://github.com/janhq/poseless
 * https://arxiv.org/abs/2503.07111
 
-* ## Jan
+## Jan
 Jan is the most popular open source AI Chatbot Client with more than 1.5M downloads (and counting up)
 * https://github.com/janhq/jan
 
