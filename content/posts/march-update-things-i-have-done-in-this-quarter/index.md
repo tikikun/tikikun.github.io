@@ -25,4 +25,6 @@ Find out more:
 - Paper: [arXiv:2503.07111](https://arxiv.org/abs/2503.07111)  
 - Code: [GitHub - janHQ/poseless](https://github.com/janhq/poseless)  
 
+![](./images/poseless.png)
+
 Both projects have received positive feedback from the AI and robotics community. Stay tuned for future works!
