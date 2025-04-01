@@ -7,7 +7,7 @@ categories: []
 images: [./images/ai-gen.webp]
 ---
 
-!()[images/ai-gen.webp]
+![](images/ai-gen.webp)
 
 I need to vent and share something that’s blown my mind today. I just came across [this paper](https://arxiv.org/abs/2503.21934v1) evaluating state-of-the-art LLMs (like O3-MINI, Claude 3.7, etc.) on the 2025 USA Mathematical Olympiad (USAMO) problems. And let me tell you—this is *wild*. 
 
