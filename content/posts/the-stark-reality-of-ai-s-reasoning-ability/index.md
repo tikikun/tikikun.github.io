@@ -4,7 +4,7 @@ date: 2025-04-01T15:03:13+07:00
 draft: false
 tags: []
 categories: []
-images: [./images/ai-gen.webp]
+images: [images/ai-gen.webp]
 ---
 
 ![](images/ai-gen.webp)
