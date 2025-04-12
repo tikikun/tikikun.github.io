@@ -1,5 +1,5 @@
 ---
-title: "The Stark Reality of Ai's Reasoning Ability"
+title: "The Stark Reality of AI's Reasoning Ability"
 date: 2025-04-01T15:03:13+07:00
 draft: false
 tags: []
