@@ -92,7 +92,8 @@ I also wrote some papers! (More coming soon.) Check out my Google Scholar [here]
 - **ReZero: Enhancing LLM search ability by trying one-more-time**  
   [arXiv:2504.11001](https://arxiv.org/abs/2504.11001)
 
-
+- **Speechless: Speech Instruction Training Without Speech for Low Resource Languages** - This paper was accepted by INTERSPEECH 2025
+  [arXiv:2505.17417](https://arxiv.org/abs/2505.17417)
 ---
 
 I believe that in the next 10 years, everyone will have access to the most sophisticated and well-tailored education system that has ever existed, thanks to mass AI adoption.
