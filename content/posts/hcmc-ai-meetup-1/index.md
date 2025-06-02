@@ -4,6 +4,7 @@ date: 2025-06-02T09:58:42+07:00
 draft: false
 tags: []
 categories: []
+images: [images/thumbnail.png]
 ---
 
 We held an AI Meetup on 31-01-2025, fun gatherings of people interested in AI. I will update the playlist of all the presentation and the slides of the event here.
