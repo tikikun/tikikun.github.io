@@ -23,6 +23,13 @@ Some of the things I have built, contributed and invented with my dear friends a
 
 Things I have built!
 
+
+## Ichigo
+Jan-nano is a 4B model that can use tools + synthesize information using an agentic workflow for search and answering questions.
+![](./images/jan_nano.gif)
+* https://huggingface.co/Menlo/Jan-nano
+
+
 ## Ichigo
 Ichigo is a multimodal AI model that can handle speech natively with enhanced latency compared to traditional ASR to LLM solution. Find out more below
 ![](./images/ichigo_strawberry.png)
