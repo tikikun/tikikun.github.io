@@ -17,7 +17,7 @@ We still have not made it yet, but this is the result of our long term commitmen
 
 # Release stat up to 21 Jun 2025
 - Reddit: we have **250k views** with **~1300 upvotes** and hundreds of comments
-- Huggingface: we have **>30.000** downloads on models, trending on main landing page of huggingface.
+- Huggingface: we have **>40.000** downloads on models, trending on main landing page of huggingface.
 - x.com: hundreds of reposts from community, hundreds thousands of total views.
 - youtube: people are posting tutorials on how to use Jan-nano
 
