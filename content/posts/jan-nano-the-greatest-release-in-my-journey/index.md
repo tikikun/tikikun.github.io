@@ -26,3 +26,15 @@ This is an amazing journey, all thanks to the community support!
 Below is demo of Jan-nano under best performance hope you will enjoy it.
 
 {{< youtube hnTnu-7q-WE>}}
+
+
+# Sources
+Some screenshots to record the history of things
+![](images/reddit_stat.png)
+Reddit stat
+
+![](images/youtube_post.png)
+Youtube video from community
+
+![](images/huggingface_stat.png)
+Huggingface stat
