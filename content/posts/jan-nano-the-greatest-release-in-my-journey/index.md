@@ -1,5 +1,5 @@
 ---
-title: "Jan Nano the Greatest Release in My Journey"
+title: "Jan Nano 👋: the Greatest Release in My Journey"
 date: 2025-06-21T22:44:02+07:00
 draft: false
 tags: []
