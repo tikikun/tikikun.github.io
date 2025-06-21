@@ -13,7 +13,8 @@ enableComments = false
 - Email: contact@alandao.net
 - Github: https://github.com/tikikun
 - Twitter: https://x.com/alandao_ai
-
+- Threads: https://www.threads.com/@alandaonet
+- Facebook: https://www.facebook.com/alandaonet
 ## About me
 
 Passionate AI Practitioner that wants to build things!
