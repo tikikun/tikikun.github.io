@@ -24,7 +24,7 @@ Some of the things I have built, contributed and invented with my dear friends a
 Things I have built!
 
 
-## Ichigo
+## Jan-nano👋
 Jan-nano is a 4B model that can use tools + synthesize information using an agentic workflow for search and answering questions.
 ![](./images/jan_nano.gif)
 * https://huggingface.co/Menlo/Jan-nano
