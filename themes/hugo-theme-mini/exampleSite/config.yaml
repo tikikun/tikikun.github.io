@@ -1,27 +1,29 @@
-baseURL: https://alandao.net
+baseURL: https://example.com
 languageCode: en-us
-title: Alan Dao's personal blog
+title: Hugo
 theme: hugo-theme-mini
 
 # Default content language, support en (English) / zh (Chinese) / nl (Dutch) / fr (French) / es (Spanish) / da (Danish), default 'en'
 defaultContentLanguage: en
 
 # !!! exampleSite only, you may need to delete the line: `themesDir: ../../` 
+themesDir: ../../
+
 hasCJKLanguage: true
 permalinks:
   posts: /posts/:title/
 
-paginate: 5
+paginate: 3
 
-googleAnalytics: G-ZCH80YBTD1
-disqusShortname: alan-blog-2 
+googleAnalytics: your-google-analytics-id
+disqusShortname: your-disqus-shortname
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
 markup:
   highlight:
     guessSyntax: true
-    style: base16-snazzy
+    style: emacs
   tableOfContents:
     endLevel: 3
     ordered: false
@@ -34,21 +36,20 @@ markup:
 # Social links in footer, support github,twitter,stackoverflow,facebook
 social:
   # e.g.
-  github: https://github.com/tikikun
-  twitter: https://x.com/alandao_ai
-  # stackoverflow: your-stackoverflow-link
-  facebook: https://www.facebook.com/Tikikun
+  github: your-github-link
+  twitter: your-twitter-link
+  stackoverflow: your-stackoverflow-link
+  # facebook: your-facebook-link
 
 
 # Site parameters
 params:
-  env: production
   # Site Author
-  author: Alan Dao
+  author: Author
   # Author biography
-  bio: AI Researcher
+  bio: Software Engineer
   # Site Description, used in HTML meat
-  description: Hi, I’m Alan Dao—an AI researcher exploring large models and multimodality. This is where I share my projects, like Ichigo and Nitro, and my passion for AI.
+  description: My Blog
 
 
   ###########################################
@@ -56,7 +57,7 @@ params:
   ###########################################
 
   # To enable RSS, you could set `enableRSS: true`, default is `true`
-  enableRSS: false
+  enableRSS: true
   # To enable comments, you may need to set `disqusShortname`
   enableComments: true
   # To enable comments, you may need to set `googleAnalytics`
@@ -64,9 +65,9 @@ params:
   # To enable table of content, you could set `showToc: true`, default is `false`
   showToc: true
   # To hidden powerBy message in the page footer, you could set: `showPowerBy: false`, default is `true`
-  showPowerBy: false
+  showPowerBy: true
   # To enable math typesetting , you could set `math: true`, default is `false`
-  math: true
+  math: false
   # To hidden post summary in home page, you could set `hiddenPostSummaryInHomePage: true`, default is `false`
   hiddenPostSummaryInHomePage: false
   # Website copyright, default: '© Copyright 2021 ❤️ {params.author}'
@@ -80,18 +81,10 @@ params:
 
   # You can put your custom css and js to `static` directory, or use remote css and js files which start with `http://` or `https://`
   customCSS:
-    - css/custom.css # local css in `static/css/custom.css`
-    - css/popup.css
+    ## e.g.
+    # - css/custom.css # local css in `static/css/custom.css`
     # - https://example.com/custom.css # remote css
   customJS:
     ## e.g.
-    - js/custom.js # local js in `static/js/custom.js`
+    # - js/custom.js # local js in `static/js/custom.js`
     # - https://example.com/custom.js # remote js
-
-  popup:
-    title: "Alan's Blog"
-    intro: "Love AI? Subscribe to get updates on my projects, insights, and breakthroughs delivered to your inbox📪!"
-    emailPlaceholder: "Enter your email…"
-    subscribeButton: "Subscribe"
-    noThanksText: "No thanks >"
-
