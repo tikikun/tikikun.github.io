@@ -4,6 +4,7 @@ date: 2026-04-06T00:00:00+07:00
 draft: false
 tags: [ai]
 categories: [ai]
+images: [images/thumbnail.png]
 ---
 
 > Source: [google/gemma-4-E2B-it on HuggingFace](https://huggingface.co/google/gemma-4-E2B-it)  
