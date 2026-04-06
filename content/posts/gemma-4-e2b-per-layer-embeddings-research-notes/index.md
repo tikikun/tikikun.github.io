@@ -7,6 +7,8 @@ categories: [ai]
 images: [images/thumbnail.png]
 ---
 
+![Gemma 4 Architecture](images/thumbnail.png)
+
 > Source: [google/gemma-4-E2B-it on HuggingFace](https://huggingface.co/google/gemma-4-E2B-it)  
 > Code: [transformers/models/gemma4/modeling_gemma4.py](https://github.com/huggingface/transformers/blob/main/src/transformers/models/gemma4/modeling_gemma4.py)
 
